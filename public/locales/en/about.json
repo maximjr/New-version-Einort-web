@@ -1,0 +1,23 @@
+{
+  "why_choose_us": {
+    "badge": "The Einort Standard",
+    "title_part_1": "WHY ELITE TEAMS",
+    "title_part_2": "CHOOSE US.",
+    "description": "We are not a standard dev shop. We are a team of product engineers and designers committed to building industry-leading digital experiences.",
+    "reasons": {
+      "r1": {
+        "title": "Engineering Rigor",
+        "description": "We follow robust software engineering practices. No spaghetti code. No shortcuts. Clean, maintainable, and highly performing architecture."
+      },
+      "r2": {
+        "title": "Business-First Mindset",
+        "description": "Technology serves the business. Every line of code we write is aimed at driving revenue, reducing operational costs, or enhancing your competitive moat."
+      },
+      "r3": {
+        "title": "Uncompromising Quality",
+        "description": "From pixel-perfect UI execution to sub-millisecond database query optimization, we obsess over the details that others ignore."
+      }
+    },
+    "cta": "Start Your Project"
+  }
+}

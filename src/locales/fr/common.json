@@ -1,0 +1,18 @@
+{
+  "next_js": "Next.js",
+  "react": "React",
+  "typescript": "TypeScript",
+  "tailwind": "TailwindCSS",
+  "firebase": "Firebase",
+  "postgresql": "PostgreSQL",
+  "loading": "Chargement...",
+  "submit": "Soumettre",
+  "send": "Envoyer",
+  "back": "Retour",
+  "next": "Suivant",
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "close": "Fermer"
+}

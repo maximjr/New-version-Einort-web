@@ -1,0 +1,11 @@
+{
+  "project_type_required": "Please select a project type",
+  "budget_required": "Please select an estimated budget",
+  "timeline_required": "Please select a timeline",
+  "requirements_min": "Please provide some details about your project (at least 10 characters)",
+  "name_min": "Name must be at least 2 characters",
+  "email_invalid": "Please enter a valid email address",
+  "company_required": "Company name is required",
+  "industry_required": "Industry is required",
+  "urgency_required": "Please select urgency"
+}

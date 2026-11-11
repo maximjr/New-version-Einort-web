@@ -1,0 +1,20 @@
+{
+  "badge": "Get In Touch",
+  "title": "CONTACT US",
+  "description": "Have a question or need assistance? Send a message directly to our team.",
+  "success": {
+    "title": "Message Sent!",
+    "message": "Thank you, {{name}}. Our team will get back to you shortly via the client portal messenger."
+  },
+  "message_template": "Contact Form Submission:\n\nName: {{name}}\nEmail: {{email}}\n\nMessage: {{message}}",
+  "info": {
+    "title": "Contact Information"
+  },
+  "advantage": {
+    "badge": "The Einort Advantage",
+    "title": "Why Choose EINORT"
+  },
+  "cta": {
+    "title": "Need help transforming your business?"
+  }
+}

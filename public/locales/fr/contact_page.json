@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "title": "Construisons Quelque Chose d'<1>Extraordinaire</1> Ensemble",
+    "description": "EINORT aide les entreprises à se développer grâce à des logiciels sur mesure, des intégrations d'IA, une automatisation transparente, des ERP personnalisés et une transformation numérique complète. Contactez-nous pour commencer votre voyage.",
+    "cta_consultation": "Planifier une Consultation",
+    "cta_whatsapp": "Discuter Via WhatsApp"
+  },
+  "info": {
+    "title": "Informations de Contact",
+    "methods": {
+      "address": {
+        "title": "Adresse du Bureau",
+        "value": "Douala, Région du Littoral, Cameroun"
+      },
+      "phone": {
+        "title": "Numéros de Téléphone",
+        "value": "+237 686 661 578"
+      },
+      "email": {
+        "title": "Adresses E-mail",
+        "value": "einortsolutions237@gmail.com"
+      },
+      "website": {
+        "title": "Site Web",
+        "value": "www.einortsolutions.com"
+      },
+      "hours": {
+        "title": "Heures d'Ouverture",
+        "value": "Lun-Ven: 9h00 - 18h00 WAT"
+      }
+    }
+  },
+  "form": {
+    "title": "Envoyez-nous un message",
+    "subtitle": "Remplissez le formulaire ci-dessous et notre équipe vous répondra dans les 24 heures.",
+    "fields": {
+      "name": "Nom Complet *",
+      "company": "Nom de l'Entreprise *",
+      "email": "Adresse E-mail *",
+      "phone": "Numéro de Téléphone *",
+      "country": "Pays *",
+      "industry": "Secteur d'Activité *",
+      "subject": "Objet *",
+      "service": "Service Intéressé *",
+      "message": "Message / Besoins *",
+      "contact_method": "Méthode de Contact Préférée *",
+      "consent": "Je consens à ce qu'EINORT Solutions traite mes données personnelles afin de gérer cette demande, conformément à la Politique de Confidentialité."
+    },
+    "placeholders": {
+      "name": "Jean Dupont",
+      "company": "Acme Corp",
+      "email": "jean@entreprise.com",
+      "phone": "+237 600 000 000",
+      "country": "Cameroun",
+      "industry": "Finance, Logistique, Commerce...",
+      "subject": "Demande de Projet",
+      "service": "Sélectionnez un service",
+      "message": "Parlez-nous de vos objectifs, de vos défis actuels et de votre calendrier..."
+    },
+    "methods": {
+      "email": "E-mail",
+      "phone": "Appel Téléphonique",
+      "whatsapp": "WhatsApp"
+    },
+    "submit": "Envoyer la Demande",
+    "submitting": "Traitement",
+    "success": {
+      "title": "Demande Reçue",
+      "description": "Merci d'avoir contacté EINORT Solutions. Notre équipe d'architecture examine vos coordonnées et vous contactera sous peu.",
+      "cta": "Envoyer un Autre Message"
+    },
+    "error": "Une erreur est survenue lors de l'envoi de votre demande.",
+    "validation": {
+      "name": "Le nom doit comporter au moins 2 caractères",
+      "company": "Le nom de l'entreprise est requis",
+      "email": "Veuillez entrer une adresse e-mail valide",
+      "phone": "Veuillez entrer un numéro de téléphone valide",
+      "country": "Le pays est requis",
+      "industry": "Le secteur d'activité est requis",
+      "subject": "L'objet est requis",
+      "service": "Veuillez sélectionner un service",
+      "message": "Veuillez fournir plus de détails sur votre demande",
+      "contact_method": "Veuillez sélectionner une méthode de contact préférée",
+      "consent": "Vous devez accepter la politique de confidentialité"
+    }
+  },
+  "services": [
+    "ERP EINORT",
+    "Logiciel sur Mesure",
+    "Développement de Site Web",
+    "Application Mobile",
+    "Design UI/UX",
+    "Branding",
+    "Solutions d'IA",
+    "Marketing Numérique",
+    "Automatisation des Affaires",
+    "Conseil en IT",
+    "Autre"
+  ],
+  "advantages": {
+    "badge": "L'Avantage Einort",
+    "title": "Pourquoi Choisir EINORT",
+    "items": [
+      {
+        "title": "Expertise Entreprise",
+        "description": "Expérience confirmée dans la livraison de systèmes à grande échelle."
+      },
+      {
+        "title": "Solutions Propulsées par l'IA",
+        "description": "Architecture logicielle intelligente de nouvelle génération."
+      },
+      {
+        "title": "Technologies Modernes",
+        "description": "Construit avec React, Next.js et des stacks de pointe."
+      },
+      {
+        "title": "Systèmes Évolutifs",
+        "description": "Infrastructure conçue pour croître avec votre entreprise."
+      },
+      {
+        "title": "Normes Mondiales",
+        "description": "Ingénierie et design UI/UX de classe mondiale."
+      },
+      {
+        "title": "Support Dédié",
+        "description": "Assistance technique et maintenance 24h/24, 7j/7."
+      }
+    ]
+  },
+  "consultation": {
+    "title": "Besoin d'aide pour transformer votre entreprise ?",
+    "description": "Planifiez une session individuelle avec nos architectes d'entreprise pour discuter de vos goulots d'étranglement, de vos objectifs et de la faisabilité technique.",
+    "cta_book": "Réserver une Consultation",
+    "cta_expert": "Parler à un Expert"
+  },
+  "faq": {
+    "badge": "Réponses Claires",
+    "title": "Foire Aux Questions",
+    "items": [
+      {
+        "q": "Combien de temps prend un projet ?",
+        "a": "Les délais des projets varient en fonction de la complexité. Un site web d'entreprise standard prend 2 à 4 semaines, tandis qu'un ERP personnalisé ou une plateforme SaaS peut prendre 3 à 6 mois. Nous fournissons des délais précis lors de la phase de découverte technique."
+      },
+      {
+        "q": "Travaillez-vous à l'international ?",
+        "a": "Oui. Bien que notre marché principal soit l'Afrique, nous livrons des solutions d'entreprise pour des clients du monde entier, en assurant des chevauchements de fuseaux horaires pour les réunions critiques."
+      },
+      {
+        "q": "Pouvez-vous personnaliser l'ERP EINORT ?",
+        "a": "Absolument. L'ERP EINORT est construit de manière modulaire. Nous adaptons les flux de travail, les tableaux de bord et les intégrations spécifiquement pour vos opérations commerciales."
+      },
+      {
+        "q": "Combien coûte un site web ?",
+        "a": "Les coûts dépendent de la portée, des fonctionnalités et des intégrations. Nous construisons des plateformes haut de gamme à fort taux de conversion plutôt que des modèles génériques. Contactez-nous pour un devis précis."
+      },
+      {
+        "q": "Comment demander un devis ?",
+        "a": "Remplissez le formulaire de contact ci-dessus avec les détails de votre projet, et notre équipe d'architecture vous répondra dans les 24 heures pour planifier un appel de découverte."
+      },
+      {
+        "q": "Pouvez-vous reconcevoir un système existant ?",
+        "a": "Oui. Nous nous spécialisons dans la transformation numérique, en prenant des systèmes hérités et en les mettant à niveau vers des applications cloud modernes, évolutives et magnifiquement conçues."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Prêt à transformer votre entreprise ?",
+    "cta_contact": "Contactez-nous",
+    "cta_demo": "Demander une Démo"
+  }
+}

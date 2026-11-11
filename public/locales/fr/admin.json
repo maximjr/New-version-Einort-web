@@ -1,0 +1,216 @@
+{
+  "seo": {
+    "title": "Intelligence Admin | Einort Solutions",
+    "description": "Centre de commande d'entreprise et pipeline de projets."
+  },
+  "breadcrumbs": {
+    "home": "Accueil",
+    "admin": "Intelligence Admin"
+  },
+  "headings": {
+    "command_center": "Centre de Commande Exécutif",
+    "operating_system": "Système d'Exploitation Business d'Entreprise",
+    "pipeline_title": "Centre de Commande du Pipeline de Projets"
+  },
+  "notices": {
+    "system_degraded": "Avis Système : Réplication en temps réel dégradée.",
+    "iam_error": "Permissions IAM ou règles de sécurité manquantes.",
+    "no_projects": "Aucun projet dans le pipeline.",
+    "decommission_confirm": "Déclasser définitivement ?",
+    "syncing": "Synchronisation...",
+    "project_decommissioned": "PROJET DÉCLASSÉ",
+    "engagement_archived": "Cet engagement a été archivé. Les transitions d'état sont gelées jusqu'à la réactivation.",
+    "active_operational_milestone": "Jalon Opérationnel Actif"
+  },
+  "timeline_stages": {
+    "pending": {
+      "label": "01. Soumission",
+      "description": "En attente de vérification de l'espace de travail"
+    },
+    "discovery": {
+      "label": "02. Découverte",
+      "description": "Évaluation de l'architecture et de la portée de l'équipe"
+    },
+    "planning": {
+      "label": "03. Planification",
+      "description": "Établissement des schémas logiciels"
+    },
+    "ui_ux": {
+      "label": "04. Design UI/UX",
+      "description": "Prototypage des couches visuelles dynamiques"
+    },
+    "development": {
+      "label": "05. Ingénierie",
+      "description": "Sprint d'ingénierie logicielle active"
+    },
+    "testing": {
+      "label": "06. Tests QA",
+      "description": "Tests rigoureux de stress et d'intégrité"
+    },
+    "review": {
+      "label": "07. Revue Gouv",
+      "description": "Évaluation de la conformité réglementaire et visuelle"
+    },
+    "revision": {
+      "label": "08. Révision",
+      "description": "Résolution des itérations de feedback"
+    },
+    "deployment": {
+      "label": "09. Déploiement",
+      "description": "Déploiement sur l'hyperviseur de production"
+    },
+    "completed": {
+      "label": "10. Lancé",
+      "description": "Version de production active"
+    }
+  },
+  "tabs": {
+    "analytics": "Analyses & Pipeline",
+    "analytics_short": "Analyses",
+    "messaging": "Pipeline de Messagerie",
+    "messages_short": "Messages"
+  },
+  "stats": {
+    "active_projects": "Projets Actifs",
+    "revenue_pipeline": "Pipeline de Revenus Est.",
+    "high_priority": "Offres Haute Priorité",
+    "conversion_rate": "Conversion Projetée",
+    "active_clients": "Base de Clients Actifs",
+    "avg_lead_score": "Score de Lead Moyen",
+    "abandoned_drafts": "Brouillons Abandonnés",
+    "system_health": "Santé du Système",
+    "trends": {
+      "live": "En Direct",
+      "volume": "Volume",
+      "urgent": "Urgent",
+      "avg": "Moy",
+      "users": "Utilisateurs",
+      "score": "Score",
+      "lost": "Perdu",
+      "ops": "Ops"
+    },
+    "health_status": {
+      "degraded": "Dégradé",
+      "nominal": "Nominal"
+    }
+  },
+  "charts": {
+    "sector_concentration": "Concentration par Secteur",
+    "value_allocation": "Allocation de la Valeur",
+    "delivery_trajectory": "Trajectoire de Livraison",
+    "operational_status": "Statut Opérationnel"
+  },
+  "status": {
+    "cancelled": "Annulé",
+    "pending_review": "En Attente de Révision",
+    "completed": "Terminé",
+    "in_progress": "En Cours"
+  },
+  "table": {
+    "client": "Client",
+    "industry": "Secteur",
+    "type": "Type",
+    "budget_timeline": "Budget & Délai",
+    "urgency_risk": "Urgence & Risque",
+    "requirements": "Exigences",
+    "lead_score": "Score de Lead",
+    "status": "Statut",
+    "total": "Total"
+  },
+  "actions": {
+    "accept_deal": "Accepter l'Offre",
+    "advance_to": "Passer à {{stage}}",
+    "fully_completed": "Offre Entièrement Terminée",
+    "reactivate": "Réactiver le Projet",
+    "delete_project": "Supprimer le Projet",
+    "decommission_workspace": "Déclasser l'Espace de Travail",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "command": "Commande de l'Offre",
+    "command_console": "Console de Commande de l'Offre",
+    "orchestrator_audit": "Orchestrateur & Audit du Pipeline"
+  },
+  "placeholders": {
+    "unknown_client": "Client Inconnu",
+    "no_email": "Aucun e-mail listé",
+    "na": "N/A",
+    "unknown": "Inconnu",
+    "classified_build": "Construction Classifiée",
+    "normal_urgency": "Normale",
+    "system_event": "Événement Système",
+    "account_standard": "Standard",
+    "role_client": "Client",
+    "waiting_activity": "En attente d'événements d'activité client...",
+    "no_clients": "Aucun client enregistré."
+  },
+  "details": {
+    "client_details": "Détails du Client",
+    "scope_timeline": "Portée & Délai",
+    "risk_auditing": "Audit des Risques",
+    "business_requirements": "Exigences Business Complètes",
+    "email": "E-mail",
+    "company": "Entreprise",
+    "phase": "Phase",
+    "budget_allocation": "Allocation Budgétaire",
+    "timeline_window": "Fenêtre de Délai",
+    "lead_quality_score": "Score de Qualité de Lead",
+    "complexity_index": "Indice de Complexité",
+    "status": "Statut",
+    "stage": "Étape"
+  },
+  "client_base": {
+    "title": "Base de Clients Globale",
+    "headers": {
+      "client": "Client",
+      "account_type": "Type de Compte",
+      "role": "Rôle",
+      "projects": "Projets",
+      "registered": "Enregistré"
+    }
+  },
+  "activity_feed": {
+    "title": "Flux d'Activité en Direct",
+    "system_stream": "Flux Système"
+  },
+  "messenger": {
+    "active_clients": "Clients Actifs",
+    "select_client": "Sélectionnez un client pour gérer les communications",
+    "no_registered_clients": "Aucun client enregistré.",
+    "no_messages": "Pas encore de messages",
+    "online": "En ligne",
+    "offline": "Hors ligne",
+    "retrieving_history": "Récupération de l'historique du canal...",
+    "secure_link_established": "Lien Sécurisé Établi",
+    "channel_open": "Le canal est ouvert avec {{name}}. Vous pouvez maintenant envoyer des livrables et des communications sécurisées.",
+    "administrative_shared": "Documents administratifs partagés.",
+    "reply_placeholder": "Répondre à {{name}}...",
+    "send": "Envoyer",
+    "document_attached": "Document joint",
+    "engineering_audit": "Audit d'Ingénierie",
+    "standard_priority": "Priorité Standard",
+    "low_priority": "Basse Priorité",
+    "medium_priority": "Priorité Moyenne",
+    "high_priority": "Haute Priorité",
+    "active": "Actif",
+    "archived": "Archivé",
+    "closed": "Fermé",
+    "now": "Maintenant",
+    "sent": "Envoyé",
+    "attachment": "Pièce jointe",
+    "executive_command_center": "Centre de Commande Exécutif",
+    "select_client_long": "Sélectionnez un client dans le répertoire pour surveiller les pipelines, répondre aux demandes et gérer les livrables sécurisés."
+  },
+  "stages": {
+    "pending": "01. En attente de vérification",
+    "discovery": "02. Phase de découverte",
+    "planning": "03. Planification architecturale",
+    "ui_ux": "04. Prototypage UI/UX",
+    "development": "05. Ingénierie & Dév",
+    "testing": "06. Tests & QA",
+    "review": "07. Révision de gouvernance",
+    "revision": "08. Boucle de révision",
+    "deployment": "09. Préparation au déploiement",
+    "completed": "10. En direct / Terminé",
+    "cancelled": "11. Déclassé / Annulé"
+  }
+}

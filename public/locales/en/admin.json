@@ -1,0 +1,216 @@
+{
+  "seo": {
+    "title": "Admin Intelligence | Einort Solutions",
+    "description": "Enterprise command center and project pipeline."
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "admin": "Admin Intelligence"
+  },
+  "headings": {
+    "command_center": "Executive Command Center",
+    "operating_system": "Enterprise Business Operating System",
+    "pipeline_title": "Project Pipeline Command Center"
+  },
+  "notices": {
+    "system_degraded": "System Notice: Realtime replication degraded.",
+    "iam_error": "Missing IAM permissions or security rules.",
+    "no_projects": "No projects in the pipeline.",
+    "decommission_confirm": "Decommission permanently?",
+    "syncing": "Syncing...",
+    "project_decommissioned": "PROJECT DECOMMISSIONED",
+    "engagement_archived": "This engagement has been archived. State transitions are frozen until re-activated.",
+    "active_operational_milestone": "Active Operational Milestone"
+  },
+  "timeline_stages": {
+    "pending": {
+      "label": "01. Submission",
+      "description": "Awaiting workspace verification"
+    },
+    "discovery": {
+      "label": "02. Discovery",
+      "description": "Evaluating architecture & team scope"
+    },
+    "planning": {
+      "label": "03. Planning",
+      "description": "Laying out software schematics"
+    },
+    "ui_ux": {
+      "label": "04. UI/UX Design",
+      "description": "Prototyping dynamic visual layers"
+    },
+    "development": {
+      "label": "05. Engineering",
+      "description": "Active software engineering sprint"
+    },
+    "testing": {
+      "label": "06. QA Testing",
+      "description": "Rigorous stress & integrity testing"
+    },
+    "review": {
+      "label": "07. Gov Review",
+      "description": "Evaluating regulatory & visual compliance"
+    },
+    "revision": {
+      "label": "08. Revision",
+      "description": "Resolving feedback iterations"
+    },
+    "deployment": {
+      "label": "09. Deployment",
+      "description": "Deploying to production hypervisor"
+    },
+    "completed": {
+      "label": "10. Launched",
+      "description": "Production release active"
+    }
+  },
+  "tabs": {
+    "analytics": "Analytics & Pipeline",
+    "analytics_short": "Analytics",
+    "messaging": "Messaging Pipeline",
+    "messages_short": "Messages"
+  },
+  "stats": {
+    "active_projects": "Active Projects",
+    "revenue_pipeline": "Est. Revenue Pipeline",
+    "high_priority": "High Priority Deals",
+    "conversion_rate": "Projected Conversion",
+    "active_clients": "Active Client Base",
+    "avg_lead_score": "Avg. Lead Score",
+    "abandoned_drafts": "Abandoned Drafts",
+    "system_health": "System Health",
+    "trends": {
+      "live": "Live",
+      "volume": "Volume",
+      "urgent": "Urgent",
+      "avg": "Avg",
+      "users": "Users",
+      "score": "Score",
+      "lost": "Lost",
+      "ops": "Ops"
+    },
+    "health_status": {
+      "degraded": "Degraded",
+      "nominal": "Nominal"
+    }
+  },
+  "charts": {
+    "sector_concentration": "Sector Concentration",
+    "value_allocation": "Value Allocation",
+    "delivery_trajectory": "Delivery Trajectory",
+    "operational_status": "Operational Status"
+  },
+  "status": {
+    "cancelled": "Cancelled",
+    "pending_review": "Pending Review",
+    "completed": "Completed",
+    "in_progress": "In Progress"
+  },
+  "table": {
+    "client": "Client",
+    "industry": "Industry",
+    "type": "Type",
+    "budget_timeline": "Budget & Timeline",
+    "urgency_risk": "Urgency & Risk",
+    "requirements": "Requirements",
+    "lead_score": "Lead Score",
+    "status": "Status",
+    "total": "Total"
+  },
+  "actions": {
+    "accept_deal": "Accept Deal",
+    "advance_to": "Advance to {{stage}}",
+    "fully_completed": "Deal Fully Completed",
+    "reactivate": "Re-Activate Project",
+    "delete_project": "Delete Project",
+    "decommission_workspace": "Decommission Workspace",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "command": "Deal Command",
+    "command_console": "Deal Command Console",
+    "orchestrator_audit": "Pipeline Orchestrator & Audit"
+  },
+  "placeholders": {
+    "unknown_client": "Unknown Client",
+    "no_email": "No Email listed",
+    "na": "N/A",
+    "unknown": "Unknown",
+    "classified_build": "Classified Build",
+    "normal_urgency": "Normal",
+    "system_event": "System Event",
+    "account_standard": "Standard",
+    "role_client": "Client",
+    "waiting_activity": "Waiting for client activity events...",
+    "no_clients": "No clients registered."
+  },
+  "details": {
+    "client_details": "Client Details",
+    "scope_timeline": "Scope & Timeline",
+    "risk_auditing": "Risk Auditing",
+    "business_requirements": "Full Business Requirements",
+    "email": "Email",
+    "company": "Company",
+    "phase": "Phase",
+    "budget_allocation": "Budget Allocation",
+    "timeline_window": "Timeline Window",
+    "lead_quality_score": "Lead Quality Score",
+    "complexity_index": "Complexity Index",
+    "status": "Status",
+    "stage": "Stage"
+  },
+  "client_base": {
+    "title": "Global Client Base",
+    "headers": {
+      "client": "Client",
+      "account_type": "Account Type",
+      "role": "Role",
+      "projects": "Projects",
+      "registered": "Registered"
+    }
+  },
+  "activity_feed": {
+    "title": "Live Activity Feed",
+    "system_stream": "System Stream"
+  },
+  "messenger": {
+    "active_clients": "Active Clients",
+    "select_client": "Select a client to manage communications",
+    "no_registered_clients": "No registered clients.",
+    "no_messages": "No messages yet",
+    "online": "Online",
+    "offline": "Offline",
+    "retrieving_history": "Retrieving channel history...",
+    "secure_link_established": "Secure Link Established",
+    "channel_open": "Channel is open with {{name}}. You may now send deliverables and secure communications.",
+    "administrative_shared": "Administrative documents shared.",
+    "reply_placeholder": "Reply to {{name}}...",
+    "send": "Send",
+    "document_attached": "Document attached",
+    "engineering_audit": "Engineering Audit",
+    "standard_priority": "Standard Priority",
+    "low_priority": "Low Priority",
+    "medium_priority": "Medium Priority",
+    "high_priority": "High Priority",
+    "active": "Active",
+    "archived": "Archived",
+    "closed": "Closed",
+    "now": "Now",
+    "sent": "Sent",
+    "attachment": "Attachment",
+    "executive_command_center": "Executive Command Center",
+    "select_client_long": "Select a client from the directory to monitor pipelines, reply to inquiries, and manage secure deliverables."
+  },
+  "stages": {
+    "pending": "01. Pending Verification",
+    "discovery": "02. Discovery Phase",
+    "planning": "03. Architecture Planning",
+    "ui_ux": "04. UI/UX Prototyping",
+    "development": "05. Engineering & Dev",
+    "testing": "06. Testing & QA",
+    "review": "07. Governance Review",
+    "revision": "08. Revision Loop",
+    "deployment": "09. Deployment Prep",
+    "completed": "10. Live / Completed",
+    "cancelled": "11. Decommissioned / Cancelled"
+  }
+}

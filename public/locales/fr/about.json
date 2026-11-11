@@ -1,0 +1,23 @@
+{
+  "why_choose_us": {
+    "badge": "Le Standard Einort",
+    "title_part_1": "POURQUOI LES ÉQUIPES",
+    "title_part_2": "D'ÉLITE NOUS CHOISISSENT.",
+    "description": "Nous ne sommes pas une agence de développement standard. Nous sommes une équipe d'ingénieurs produits et de designers engagés à créer des expériences numériques de premier plan.",
+    "reasons": {
+      "r1": {
+        "title": "Rigueur d'Ingénierie",
+        "description": "Nous suivons des pratiques d'ingénierie logicielle robustes. Pas de code spaghetti. Pas de raccourcis. Une architecture propre, maintenable et performante."
+      },
+      "r2": {
+        "title": "Esprit Business First",
+        "description": "La technologie sert l'entreprise. Chaque ligne de code que nous écrivons vise à générer des revenus, réduire les coûts opérationnels ou renforcer votre avantage concurrentiel."
+      },
+      "r3": {
+        "title": "Qualité Sans Compromis",
+        "description": "De l'exécution de l'interface utilisateur au pixel près à l'optimisation des requêtes de base de données à la milliseconde, nous sommes obsédés par les détails que d'autres ignorent."
+      }
+    },
+    "cta": "Démarrez Votre Projet"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "labels": {
+    "name": "Votre Nom",
+    "full_name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "work_email": "E-mail Professionnel",
+    "message": "Votre Message",
+    "subject": "Sujet",
+    "company": "Entreprise / Organisation",
+    "phone": "Numéro de Téléphone",
+    "country": "Pays",
+    "industry": "Secteur d'Activité",
+    "project_type": "Service Intéressé",
+    "contact_method": "Méthode de Contact Préférée",
+    "requirements": "Exigences du Projet",
+    "urgency": "Niveau d'Urgence"
+  },
+  "placeholders": {
+    "name": "Jean Dupont",
+    "full_name": "Jeanne Dupont",
+    "email": "jean@entreprise.com",
+    "work_email": "jeanne@acmeglobal.com",
+    "message": "Comment pouvons-nous vous aider ?",
+    "company": "Acme Global",
+    "phone": "+237 600 000 000",
+    "country": "Cameroun",
+    "industry": "Finance, Santé, Tech...",
+    "subject": "Demande de Projet",
+    "requirements": "Décrivez les objectifs principaux, la pile technique existante et les livrables clés...",
+    "search": "Rechercher..."
+  },
+  "buttons": {
+    "send_message": "Envoyer le Message",
+    "sending": "Envoi du Message...",
+    "submit_request": "Soumettre la Demande",
+    "send_another": "Envoyer un Autre Message",
+    "continue": "Continuer",
+    "back": "Retour",
+    "initiate": "Lancer le Projet",
+    "login_to_submit": "Se Connecter pour Soumettre",
+    "close_continue": "Fermer et Continuer"
+  },
+  "contact_methods": {
+    "email": "E-mail",
+    "phone": "Appel Téléphonique",
+    "whatsapp": "WhatsApp"
+  },
+  "project_discovery": {
+    "badge": "Découverte de Projet",
+    "title_part_1": "LANCER",
+    "title_part_2": "LE PROJET.",
+    "description": "Connectez-vous avec notre équipe d'architecture d'élite pour évaluer vos besoins et définir la portée de votre prochain déploiement en entreprise.",
+    "steps": {
+      "step1": "Portée",
+      "step2": "Détails",
+      "step3": "Identité"
+    }
+  },
+  "wizard": {
+    "step1_title": "Que construisons-nous ?",
+    "budget_title": "Budget Estimé",
+    "step2_title": "Calendrier et Détails",
+    "step3_title": "Vérification d'Identité",
+    "budgets": {
+      "b1": "1k$ - 5k$",
+      "b2": "5k$ - 10k$",
+      "b3": "10k$ - 15k$",
+      "b4": "20k$+"
+    },
+    "project_types": {
+      "enterprise": "Dév de Sites et App Web",
+      "saas": "Dév de Solutions ERP",
+      "uiux": "Refonte UI/UX",
+      "other": "Dév d'App Mobile"
+    },
+    "urgency": {
+      "select": "Sélectionner l'urgence",
+      "high": "Haute - Démarrage Immédiat",
+      "medium": "Moyenne - Sous 3 Mois",
+      "low": "Basse - Exploration d'Options"
+    },
+    "success": {
+      "title": "Demande Sécurisée",
+      "description": "Notre équipe d'ingénierie d'élite a reçu votre dossier et vous contactera sous peu."
+    }
+  }
+}

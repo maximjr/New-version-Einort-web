@@ -1,0 +1,8 @@
+{
+  "generic": "There was an error. Please try again.",
+  "contact_send": "There was an error sending your message. Please try again.",
+  "required": "This field is required",
+  "email_invalid": "Please enter a valid email address",
+  "not_found": "Page not found",
+  "unauthorized": "You are not authorized to view this page"
+}

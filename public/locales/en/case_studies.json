@@ -1,0 +1,27 @@
+{
+  "badge": "Success Stories",
+  "title": "CASE STUDIES",
+  "description": "Explore how we've helped leading organizations transform their operations and scale digitally.",
+  "key_result": "Key Result:",
+  "read_more": "Read More",
+  "items": {
+    "global-logistics-erp": {
+      "title": "Global Logistics ERP",
+      "category": "ERP Solutions Dev",
+      "description": "A comprehensive supply chain and logistics management ERP system that increased operational efficiency by 40% for a multi-national transportation company.",
+      "metric": "40% Efficiency Gain"
+    },
+    "fintech-mobile-app": {
+      "title": "FinTech Mobile App",
+      "category": "Mobile App Dev",
+      "description": "A cross-platform mobile wallet and investment application processing over $10M in monthly transactions with bank-grade security protocols.",
+      "metric": "$10M+ Monthly Volume"
+    },
+    "healthcare-portal": {
+      "title": "Healthcare Patient Portal",
+      "category": "Websites & Web App Dev",
+      "description": "A HIPAA-compliant patient management web application handling scheduling, telehealth, and electronic health records for over 50,000 active users.",
+      "metric": "50k+ Active Users"
+    }
+  }
+}

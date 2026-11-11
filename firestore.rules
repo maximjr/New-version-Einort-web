@@ -1,0 +1,239 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Core Authentication & Verification Helpers
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // Requires cryptographically verified email address
+    function isVerifiedUser() {
+      return isAuthenticated() && request.auth.token.email_verified == true;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+    
+    // Server-Side Role Enforcement with Mandatory Email Verification
+    function isAdmin() {
+      return isAuthenticated() && request.auth.token.email_verified == true && (
+        ('role' in request.auth.token && request.auth.token.role in ['admin', 'super_admin']) || 
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) && 
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', 'none') in ['admin', 'super_admin']) ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) && 
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('isAdmin', false) == true)
+      );
+    }
+    
+    function isSuperAdmin() {
+      return isAuthenticated() && request.auth.token.email_verified == true && (
+        ('role' in request.auth.token && request.auth.token.role == 'super_admin') || 
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) && 
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.get('role', 'none') == 'super_admin')
+      );
+    }
+
+    // Entity validator definitions
+    function isValidUser(data) {
+      return data.uid is string && data.uid == request.auth.uid &&
+             data.email is string && data.email.size() <= 128 &&
+             data.fullName is string && data.fullName.size() <= 128 &&
+             data.role is string && data.role in ['client', 'admin', 'super_admin'] &&
+             data.accountType is string && data.accountType.size() <= 64;
+    }
+
+    function isValidProject(data) {
+      return data.userId is string && data.userId.size() <= 128 &&
+             data.clientName is string && data.clientName.size() <= 128 &&
+             data.company is string && data.company.size() <= 128 &&
+             data.projectType is string && data.projectType.size() <= 128 &&
+             data.industry is string && data.industry.size() <= 128 &&
+             data.budget is string && data.budget.size() <= 64 &&
+             data.timeline is string && data.timeline.size() <= 64 &&
+             data.urgency is string && data.urgency in ['low', 'medium', 'high', 'standard'] &&
+             data.status is string && data.status.size() <= 64;
+    }
+
+    function isValidInquiry(data) {
+      return data.fullName is string && data.fullName.size() <= 128 &&
+             data.email is string && data.email.size() <= 128 &&
+             data.company is string && data.company.size() <= 128;
+    }
+
+    function isValidClientActivity(data) {
+      return data.userId is string && data.userId.size() <= 128 &&
+             data.clientEmail is string && data.clientEmail.size() <= 128 &&
+             data.actionTitle is string && data.actionTitle.size() <= 200 &&
+             data.description is string && data.description.size() <= 1000;
+    }
+
+    function isValidConversation(data) {
+      return data.clientId is string && data.clientId.size() <= 128 &&
+             data.adminId is string && data.adminId.size() <= 128 &&
+             data.participants is list && data.participants.size() >= 1 && data.participants.size() <= 10 &&
+             data.status is string && data.status.size() <= 64 &&
+             data.priority is string && data.priority.size() <= 64;
+    }
+
+    function isValidMessage(data) {
+      return data.senderId is string && data.senderId.size() <= 128 &&
+             data.receiverId is string && data.receiverId.size() <= 128 &&
+             data.text is string && data.text.size() <= 10000 &&
+             data.type is string && data.type.size() <= 64;
+    }
+
+    // Inquiries Collection: Public submit, admin read/write
+    match /inquiries/{inquiryId} {
+      allow create: if isValidId(inquiryId) && 
+                    incoming().keys().hasAll(['fullName', 'email', 'company']) &&
+                    isValidInquiry(incoming());
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Users Collection (RBAC Source of Truth & Row-Level Security)
+    match /users/{userId} {
+      allow get: if isAuthenticated() && (isOwner(userId) || isAdmin());
+      allow list: if isAdmin();
+      allow create: if isVerifiedUser() && isOwner(userId) && 
+                    incoming().keys().hasAll(['uid', 'email', 'fullName', 'role', 'accountType', 'isAdmin']) &&
+                    isValidUser(incoming()) &&
+                    incoming().role == 'client' && 
+                    incoming().isAdmin == false;
+      allow update: if isAuthenticated() && (
+        isAdmin() || 
+        (isOwner(userId) && 
+         isValidUser(incoming()) &&
+         !incoming().diff(existing()).affectedKeys().hasAny(['role', 'isAdmin', 'permissions', 'accountType']) &&
+         incoming().uid == existing().uid
+        )
+      );
+      allow delete: if isSuperAdmin();
+    }
+
+    // Projects / CRM Collection (Row-Level Security)
+    match /projects/{projectId} {
+      allow get: if isAuthenticated() && (
+        isAdmin() ||
+        resource.data.userId == request.auth.uid
+      );
+      allow list: if isAuthenticated() && (
+        isAdmin() || 
+        resource.data.userId == request.auth.uid
+      );
+      allow create: if isVerifiedUser() && (
+        isAdmin() || 
+        (isValidId(projectId) && 
+         isValidProject(incoming()) && 
+         incoming().userId == request.auth.uid &&
+         incoming().status == 'pending' &&
+         incoming().keys().hasAll(['userId', 'clientName', 'projectType', 'industry', 'budget', 'timeline', 'status'])
+        )
+      );
+      allow update: if isAuthenticated() && (
+        isAdmin() ||
+        (isOwner(resource.data.userId) &&
+         isValidProject(incoming()) &&
+         incoming().status == existing().status &&
+         !incoming().diff(existing()).affectedKeys().hasAny(['userId', 'email', 'leadScore', 'complexityScore', 'createdAt', 'projectId'])
+        )
+      );
+      allow delete: if isAuthenticated() && (
+        isAdmin() ||
+        isOwner(resource.data.userId)
+      );
+    }
+    
+    // Activity / Analytics
+    match /activity/{activityId} {
+      allow get: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+      allow list: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+      allow create: if isVerifiedUser() && isValidId(activityId) && incoming().userId == request.auth.uid;
+      allow update, delete: if isAdmin();
+    }
+
+    match /ledger/{documentId} {
+      allow read, write: if isAdmin();
+    }
+    match /crm/{documentId} {
+      allow read, write: if isAdmin();
+    }
+    match /analytics/{documentId} {
+      allow read, write: if isAdmin();
+    }
+    match /notifications/{documentId} {
+      allow read, write: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+    }
+    match /clientActivity/{documentId} {
+      allow get, list: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+      allow create: if isVerifiedUser() && isValidId(documentId) && incoming().userId == request.auth.uid && isValidClientActivity(incoming());
+      allow update, delete: if isAdmin();
+    }
+    match /consultDossiers/{documentId} {
+      allow read, write: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+    }
+    match /projectOrders/{documentId} {
+      allow read, write: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+    }
+    match /projectSubmissions/{documentId} {
+      allow read, write: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+    }
+    match /customProjects/{documentId} {
+      allow read, write: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+    }
+    match /submissions/{documentId} {
+      allow read, write: if isAuthenticated() && (isAdmin() || resource.data.userId == request.auth.uid);
+    }
+
+    // Enterprise Communication Pipeline Rules
+    match /conversations/{conversationId} {
+      allow read: if isAuthenticated() && (
+        isAdmin() || 
+        (resource == null) ||
+        resource.data.clientId == request.auth.uid ||
+        request.auth.uid in resource.data.participants
+      );
+      allow write: if isAuthenticated() && (
+        isAdmin() ||
+        (resource == null && (request.auth.uid == request.resource.data.get('clientId', '') || request.auth.uid in request.resource.data.get('participants', []))) ||
+        (resource != null && (request.auth.uid == resource.data.get('clientId', '') || request.auth.uid in resource.data.get('participants', [])))
+      );
+
+      match /messages/{messageId} {
+        allow read: if isAuthenticated() && (
+          isAdmin() || 
+          request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.get('participants', []) ||
+          get(/databases/$(database)/documents/conversations/$(conversationId)).data.get('clientId', '') == request.auth.uid
+        );
+        allow write: if isAuthenticated() && (
+          isAdmin() || 
+          request.auth.uid in get(/databases/$(database)/documents/conversations/$(conversationId)).data.get('participants', []) ||
+          get(/databases/$(database)/documents/conversations/$(conversationId)).data.get('clientId', '') == request.auth.uid
+        );
+      }
+    }
+
+    match /presence/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId) || isAdmin();
+    }
+
+    // Default deny for all unmatched paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

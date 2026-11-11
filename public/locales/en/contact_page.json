@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "title": "Let's Build Something <1>Extraordinary</1> Together",
+    "description": "EINORT helps businesses grow through bespoke software, AI integrations, seamless automation, tailored ERPs, and complete digital transformation. Reach out to start your journey.",
+    "cta_consultation": "Schedule Consultation",
+    "cta_whatsapp": "Chat Via WhatsApp"
+  },
+  "info": {
+    "title": "Contact Information",
+    "methods": {
+      "address": {
+        "title": "Office Address",
+        "value": "Douala, Littoral Region, Cameroon"
+      },
+      "phone": {
+        "title": "Phone Numbers",
+        "value": "+237 686 661 578"
+      },
+      "email": {
+        "title": "Email Addresses",
+        "value": "einortsolutions237@gmail.com"
+      },
+      "website": {
+        "title": "Website",
+        "value": "www.einortsolutions.com"
+      },
+      "hours": {
+        "title": "Business Hours",
+        "value": "Mon-Fri: 9AM - 6PM WAT"
+      }
+    }
+  },
+  "form": {
+    "title": "Send us a message",
+    "subtitle": "Fill out the form below and our team will get back to you within 24 hours.",
+    "fields": {
+      "name": "Full Name *",
+      "company": "Company Name *",
+      "email": "Email Address *",
+      "phone": "Phone Number *",
+      "country": "Country *",
+      "industry": "Business Industry *",
+      "subject": "Subject *",
+      "service": "Service Interested In *",
+      "message": "Message / Requirements *",
+      "contact_method": "Preferred Contact Method *",
+      "consent": "I consent to EINORT Solutions processing my personal data in order to handle this inquiry, in accordance with the Privacy Policy."
+    },
+    "placeholders": {
+      "name": "John Doe",
+      "company": "Acme Corp",
+      "email": "john@company.com",
+      "phone": "+237 600 000 000",
+      "country": "Cameroon",
+      "industry": "Finance, Logistics, Retail...",
+      "subject": "Project Inquiry",
+      "service": "Select a service",
+      "message": "Tell us about your goals, current challenges, and timeline..."
+    },
+    "methods": {
+      "email": "Email",
+      "phone": "Phone Call",
+      "whatsapp": "WhatsApp"
+    },
+    "submit": "Submit Request",
+    "submitting": "Processing",
+    "success": {
+      "title": "Request Received",
+      "description": "Thank you for reaching out to EINORT Solutions. Our architecture team is reviewing your details and will be in touch shortly.",
+      "cta": "Send Another Message"
+    },
+    "error": "An error occurred submitting your request.",
+    "validation": {
+      "name": "Name must be at least 2 characters",
+      "company": "Company name is required",
+      "email": "Please enter a valid email address",
+      "phone": "Please enter a valid phone number",
+      "country": "Country is required",
+      "industry": "Business industry is required",
+      "subject": "Subject is required",
+      "service": "Please select a service",
+      "message": "Please provide more details about your inquiry",
+      "contact_method": "Please select a preferred contact method",
+      "consent": "You must agree to the privacy policy"
+    }
+  },
+  "services": [
+    "EINORT ERP",
+    "Custom Software",
+    "Website Development",
+    "Mobile App",
+    "UI/UX Design",
+    "Branding",
+    "AI Solutions",
+    "Digital Marketing",
+    "Business Automation",
+    "IT Consulting",
+    "Other"
+  ],
+  "advantages": {
+    "badge": "The Einort Advantage",
+    "title": "Why Choose EINORT",
+    "items": [
+      {
+        "title": "Enterprise Expertise",
+        "description": "Proven track record delivering large-scale systems."
+      },
+      {
+        "title": "AI-Powered Solutions",
+        "description": "Next-gen intelligent software architecture."
+      },
+      {
+        "title": "Modern Technologies",
+        "description": "Built with React, Next.js, and cutting-edge stacks."
+      },
+      {
+        "title": "Scalable Systems",
+        "description": "Infrastructure designed to grow with your business."
+      },
+      {
+        "title": "Global Standards",
+        "description": "World-class engineering and UI/UX design."
+      },
+      {
+        "title": "Dedicated Support",
+        "description": "24/7 technical assistance and maintenance."
+      }
+    ]
+  },
+  "consultation": {
+    "title": "Need help transforming your business?",
+    "description": "Schedule a one-on-one session with our enterprise architects to discuss your bottlenecks, goals, and technical feasibility.",
+    "cta_book": "Book Consultation",
+    "cta_expert": "Talk to an Expert"
+  },
+  "faq": {
+    "badge": "Clear Answers",
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How long does a project take?",
+        "a": "Project timelines vary depending on complexity. A standard corporate website takes 2-4 weeks, while a custom ERP or SaaS platform can take 3-6 months. We provide precise timelines during the technical discovery phase."
+      },
+      {
+        "q": "Do you work internationally?",
+        "a": "Yes. While our core market is Africa, we deliver enterprise solutions for clients globally, ensuring timezone overlaps for critical meetings."
+      },
+      {
+        "q": "Can you customize EINORT ERP?",
+        "a": "Absolutely. EINORT ERP is built modularly. We tailor workflows, dashboards, and integrations specifically for your business operations."
+      },
+      {
+        "q": "How much does a website cost?",
+        "a": "Costs depend on scope, features, and integrations. We build premium, high-converting platforms rather than generic templates. Contact us for a precise quotation."
+      },
+      {
+        "q": "How do I request a quotation?",
+        "a": "Fill out the contact form above with details about your project, and our architecture team will respond within 24 hours to schedule a discovery call."
+      },
+      {
+        "q": "Can you redesign an existing system?",
+        "a": "Yes. We specialize in digital transformation, taking legacy systems and upgrading them to modern, scalable, and beautifully designed cloud applications."
+      }
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to transform your business?",
+    "cta_contact": "Contact Us",
+    "cta_demo": "Request Demo"
+  }
+}

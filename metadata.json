@@ -1,0 +1,6 @@
+{
+  "name": "Einort Solutions Portal",
+  "description": "Production Client Portal, Project Planner, and Admin CRM for Einort Solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

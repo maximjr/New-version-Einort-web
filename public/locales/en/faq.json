@@ -1,0 +1,27 @@
+{
+  "title": "F.A.Q",
+  "subtitle_1": "FREQUENTLY ASKED",
+  "subtitle_2": "QUESTIONS",
+  "questions": {
+    "q1": {
+      "question": "What is your typical project timeline?",
+      "answer": "Our timelines vary depending on the scope and complexity of the project. A standard web application MVP might take 6 to 10 weeks, while large-scale enterprise solutions and ERP systems can take 3 to 6 months. We break development into agile sprints to ensure continuous delivery and feedback."
+    },
+    "q2": {
+      "question": "Do you offer post-launch support and maintenance?",
+      "answer": "Yes, we provide ongoing support, maintenance, and optimization services. We monitor system performance, perform security patches, and can continuously iterate on features based on user feedback and business growth."
+    },
+    "q3": {
+      "question": "What technologies do you specialize in?",
+      "answer": "We focus on modern, scalable technology stacks including React, TypeScript, Node.js, Next.js, and Firebase or Cloud SQL for databases. For mobile, we leverage cross-platform frameworks to ensure high performance on both iOS and Android."
+    },
+    "q4": {
+      "question": "How do you handle project communication?",
+      "answer": "We believe in total transparency. Our clients have access to a dedicated Client Portal where they can track project milestones, view staging links, and directly chat with the Development Team in real-time."
+    },
+    "q5": {
+      "question": "Can you integrate with our existing backend or third-party APIs?",
+      "answer": "Absolutely. We have extensive experience in seamless API integrations, migrating legacy databases, and connecting modern applications with established enterprise software (CRMs, payment gateways, etc.)."
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "entities": {
+    "User": {
+      "title": "User Profile",
+      "description": "Stores user records, metadata, security permissions, and roles.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "fullName": { "type": "string" },
+        "role": { "type": "string", "enum": ["client", "admin", "super_admin"] },
+        "accountType": { "type": "string" },
+        "permissions": { "type": "array" },
+        "isAdmin": { "type": "boolean" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "lastLogin": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid", "email", "fullName", "role", "accountType", "isAdmin"]
+    },
+    "Project": {
+      "title": "Enterprise Project Ledger",
+      "description": "The golden ledger containing budget, delivery milestones, lead metrics, and business requirements.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "clientName": { "type": "string" },
+        "company": { "type": "string" },
+        "email": { "type": "string" },
+        "projectType": { "type": "string" },
+        "industry": { "type": "string" },
+        "budget": { "type": "string" },
+        "timeline": { "type": "string" },
+        "urgency": { "type": "string", "enum": ["low", "medium", "high"] },
+        "status": { "type": "string" },
+        "requirements": { "type": "string" },
+        "leadScore": { "type": "integer" },
+        "complexityScore": { "type": "integer" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "clientName", "projectType", "industry", "budget", "timeline", "status"]
+    },
+    "Inquiry": {
+      "title": "Public Lead Inquiry",
+      "description": "Inbound client contact and request submissions.",
+      "type": "object",
+      "properties": {
+        "fullName": { "type": "string" },
+        "email": { "type": "string" },
+        "company": { "type": "string" },
+        "projectType": { "type": "string" },
+        "budget": { "type": "string" },
+        "requirements": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["fullName", "email", "company"]
+    },
+    "ClientActivity": {
+      "title": "Audit Stream Event",
+      "description": "Historical audit and engagement tracing of user actions for transparency.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string" },
+        "clientEmail": { "type": "string" },
+        "actionTitle": { "type": "string" },
+        "description": { "type": "string" },
+        "timestamp": { "type": "string", "format": "date-time" }
+      },
+      "required": ["clientEmail", "actionTitle", "timestamp"]
+    },
+    "Conversation": {
+      "title": "Enterprise Conversation Conduit",
+      "description": "Premium conversation conduit tracking administrative support threads.",
+      "type": "object",
+      "properties": {
+        "clientId": { "type": "string" },
+        "adminId": { "type": "string" },
+        "participants": { "type": "array" },
+        "lastMessage": { "type": "string" },
+        "lastMessageTime": { "type": "string", "format": "date-time" },
+        "unreadCount": { "type": "object" },
+        "status": { "type": "string" },
+        "priority": { "type": "string", "enum": ["none", "low", "medium", "high"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" },
+        "projectId": { "type": "string" }
+      },
+      "required": ["clientId", "adminId", "participants", "status", "priority", "createdAt", "updatedAt"]
+    },
+    "Message": {
+      "title": "Enterprise Pipeline Message",
+      "description": "Secure messages with media attachments and status markers inside a conversation room.",
+      "type": "object",
+      "properties": {
+        "senderId": { "type": "string" },
+        "receiverId": { "type": "string" },
+        "text": { "type": "string" },
+        "attachments": { "type": "array" },
+        "type": { "type": "string" },
+        "read": { "type": "boolean" },
+        "timestamp": { "type": "string", "format": "date-time" },
+        "status": { "type": "string" }
+      },
+      "required": ["senderId", "receiverId", "text", "type", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "User ledger with secure access boundaries."
+    },
+    "/projects/{projectId}": {
+      "schema": { "$ref": "#/entities/Project" },
+      "description": "Active delivery projects connected to business. Managed by Admins, read by Client."
+    },
+    "/inquiries/{inquiryId}": {
+      "schema": { "$ref": "#/entities/Inquiry" },
+      "description": "Contact form submissions for prospects."
+    },
+    "/clientActivity/{activityId}": {
+      "schema": { "$ref": "#/entities/ClientActivity" },
+      "description": "Client interaction audit logs."
+    },
+    "/conversations/{conversationId}": {
+      "schema": { "$ref": "#/entities/Conversation" },
+      "description": "Active administrative support and consultation rooms."
+    },
+    "/conversations/{conversationId}/messages/{messageId}": {
+      "schema": { "$ref": "#/entities/Message" },
+      "description": "Secure communication timeline stream."
+    }
+  }
+}

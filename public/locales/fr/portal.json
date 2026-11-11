@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Portail Client | Einort Solutions",
+    "description": "Gérez vos projets en cours, la facturation et les consultations."
+  },
+  "breadcrumbs": {
+    "home": "Espace de Travail Global",
+    "portal": "Espace Client"
+  },
+  "headings": {
+    "workspace": "Espace de Travail Exécutif",
+    "welcome": "Bon retour, {{name}}.",
+    "active_engagements": "Engagements Actifs",
+    "intelligence": "Intelligence en Direct",
+    "support": "Support Dédié"
+  },
+  "status": {
+    "secure_tunnel": "TUNNEL SÉCURISÉ ACTIF",
+    "nominal": "Système Nominal • En Direct",
+    "pending": "En attente d'affectation",
+    "locked": "Verrouillé",
+    "offline": "Flux d'intelligence hors ligne jusqu'à ce qu'un projet soit initié."
+  },
+  "actions": {
+    "request_build": "Demander une construction",
+    "initiate_discovery": "Initier la Découverte",
+    "decommission_build": "Déclasser la construction ?",
+    "confirm": "Confirmer",
+    "cancel": "Annuler",
+    "delete_request": "Supprimer la demande",
+    "legacy_email": "Email Classique"
+  },
+  "placeholders": {
+    "partner": "Partenaire Privilégié",
+    "classified_build": "Construction Classifiée",
+    "platform": "Plateforme d'Entreprise",
+    "na": "N/A",
+    "error": "Erreur",
+    "new": "Nouveau",
+    "details_unavailable": "Détails du projet indisponibles",
+    "restricted_init": "Les informations pour ce projet sont actuellement en cours d'initialisation ou restreintes.",
+    "tbd": "À déterminer",
+    "just_now": "À l'instant",
+    "none": "Aucun"
+  },
+  "empty_state": {
+    "title": "Vous êtes prêt à construire quelque chose d'exceptionnel.",
+    "description": "Initiez une consultation privée pour discuter de l'architecture, des délais et des ressources pour votre prochaine application d'entreprise."
+  },
+  "metrics": {
+    "velocity": "Vélocité de Livraison",
+    "clr": "CLR",
+    "budget": "Budget Estimé",
+    "scope": "Portée de la Livraison",
+    "commencement": "Commencement",
+    "current_milestone": "Jalon Actuel",
+    "next": "Suivant"
+  },
+  "stages": {
+    "pending": "Soumission",
+    "discovery": "Découverte",
+    "planning": "Planification",
+    "ui_ux": "Design UI / UX",
+    "development": "Ingénierie",
+    "testing": "QA & Inspection",
+    "review": "Revue de Gouvernance",
+    "revision": "Boucle de Révision",
+    "deployment": "Mise en service & Sortie",
+    "completed": "Lancé"
+  },
+  "intelligence": {
+    "synchronized": "Projet Synchronisé",
+    "review": "Revue d'Ingénierie",
+    "discovery_call": "Appel de Découverte Exécutif"
+  },
+  "support_cards": {
+    "line": "Ligne de Support Secondaire",
+    "line_desc": "Utilisez le pipeline flottant global pour une communication architecturale instantanée.",
+    "syncs": "Syncs Agiles",
+    "syncs_desc": "Les réunions d'alignement programmées s'afficheront ici après le lancement."
+  },
+  "project_status": {
+    "cancelled": "Annulé",
+    "pending_review": "En attente de revue",
+    "completed": "Terminé",
+    "in_progress": "En cours"
+  }
+}

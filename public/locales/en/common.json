@@ -1,0 +1,23 @@
+{
+  "next_js": "Next.js",
+  "react": "React",
+  "typescript": "TypeScript",
+  "tailwind": "TailwindCSS",
+  "firebase": "Firebase",
+  "postgresql": "PostgreSQL",
+  "loading": "Loading...",
+  "submit": "Submit",
+  "send": "Send",
+  "back": "Back",
+  "next": "Next",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "close": "Close",
+  "insights": {
+    "title": "Insights & Articles",
+    "subtitle": "Expert perspectives on software engineering, digital transformation, and technology in Africa.",
+    "back": "Back to Insights"
+  }
+}

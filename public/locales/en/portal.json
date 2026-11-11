@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Client Portal | Einort Solutions",
+    "description": "Manage your ongoing projects, billing, and consultations."
+  },
+  "breadcrumbs": {
+    "home": "Global Workspace",
+    "portal": "Client Workspace"
+  },
+  "headings": {
+    "workspace": "Executive Workspace",
+    "welcome": "Welcome back, {{name}}.",
+    "active_engagements": "Active Engagements",
+    "intelligence": "Live Intelligence",
+    "support": "Dedicated Support"
+  },
+  "status": {
+    "secure_tunnel": "SECURE TUNNEL ACTIVE",
+    "nominal": "System Nominal • Live",
+    "pending": "Pending Assignment",
+    "locked": "Locked",
+    "offline": "Intelligence stream offline until a project is initiated."
+  },
+  "actions": {
+    "request_build": "Request Build",
+    "initiate_discovery": "Initiate Discovery",
+    "decommission_build": "Decommission build?",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "delete_request": "Delete Request",
+    "legacy_email": "Legacy Email"
+  },
+  "placeholders": {
+    "partner": "Valued Partner",
+    "classified_build": "Classified Build",
+    "platform": "Enterprise Platform",
+    "na": "N/A",
+    "error": "Error",
+    "new": "New",
+    "details_unavailable": "Project details unavailable",
+    "restricted_init": "Information for this project is currently initializing or restricted.",
+    "tbd": "TBD",
+    "just_now": "Just now",
+    "none": "None"
+  },
+  "empty_state": {
+    "title": "You're ready to build something exceptional.",
+    "description": "Initiate a private consultation to discuss architecture, timelines, and resourcing for your next enterprise application."
+  },
+  "metrics": {
+    "velocity": "Delivery Velocity",
+    "clr": "CLR",
+    "budget": "Estimated Budget",
+    "scope": "Delivery Scope",
+    "commencement": "Commencement",
+    "current_milestone": "Current Milestone",
+    "next": "Next"
+  },
+  "stages": {
+    "pending": "Submission",
+    "discovery": "Discovery",
+    "planning": "Planning",
+    "ui_ux": "UI / UX Design",
+    "development": "Engineering",
+    "testing": "QA & Inspection",
+    "review": "Governance Review",
+    "revision": "Revision Loop",
+    "deployment": "Staging & Release",
+    "completed": "Launched"
+  },
+  "intelligence": {
+    "synchronized": "Project Synchronized",
+    "review": "Engineering Review",
+    "discovery_call": "Executive Discovery Call"
+  },
+  "support_cards": {
+    "line": "Secondary Support Line",
+    "line_desc": "Use the global floating pipeline for instant architectural communication.",
+    "syncs": "Agile Syncs",
+    "syncs_desc": "Scheduled alignment meetings will populate here post-kickoff."
+  },
+  "project_status": {
+    "cancelled": "Cancelled",
+    "pending_review": "Pending Review",
+    "completed": "Completed",
+    "in_progress": "In Progress"
+  }
+}

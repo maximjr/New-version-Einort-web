@@ -1,0 +1,87 @@
+{
+  "labels": {
+    "name": "Your Name",
+    "full_name": "Full Name",
+    "email": "Email Address",
+    "work_email": "Work Email",
+    "message": "Your Message",
+    "subject": "Subject",
+    "company": "Company / Organization",
+    "phone": "Phone Number",
+    "country": "Country",
+    "industry": "Industry",
+    "project_type": "Service Interested In",
+    "contact_method": "Preferred Contact Method",
+    "requirements": "Project Requirements",
+    "urgency": "Urgency Level"
+  },
+  "placeholders": {
+    "name": "John Doe",
+    "full_name": "Jane Doe",
+    "email": "john@company.com",
+    "work_email": "jane@acmeglobal.com",
+    "message": "How can we help you?",
+    "company": "Acme Global",
+    "phone": "+237 600 000 000",
+    "country": "Cameroon",
+    "industry": "Finance, Healthcare, Tech...",
+    "subject": "Project Inquiry",
+    "requirements": "Describe the core objectives, existing tech stack, and key deliverables...",
+    "search": "Search..."
+  },
+  "buttons": {
+    "send_message": "Send Message",
+    "sending": "Sending Message...",
+    "submit_request": "Submit Request",
+    "send_another": "Send Another Message",
+    "continue": "Continue",
+    "back": "Back",
+    "initiate": "Initiate Project Dev",
+    "login_to_submit": "Login to Submit",
+    "close_continue": "Close & Continue"
+  },
+  "contact_methods": {
+    "email": "Email",
+    "phone": "Phone Call",
+    "whatsapp": "WhatsApp"
+  },
+  "project_discovery": {
+    "badge": "Project Discovery",
+    "title_part_1": "INITIATE",
+    "title_part_2": "PROJECT DEV.",
+    "description": "Connect with our elite architecture team to evaluate your requirements and scope your next enterprise deployment.",
+    "steps": {
+      "step1": "Scope",
+      "step2": "Details",
+      "step3": "Identity"
+    }
+  },
+  "wizard": {
+    "step1_title": "What are we building?",
+    "budget_title": "Estimated Budget",
+    "step2_title": "Timeline & Details",
+    "step3_title": "Identity Verification",
+    "budgets": {
+      "b1": "$1k - $5k",
+      "b2": "$5k - $10k",
+      "b3": "$10k - $15k",
+      "b4": "$20k+"
+    },
+    "project_types": {
+      "enterprise": "Websites & Web App Dev",
+      "saas": "ERP Solutions Dev",
+      "uiux": "UI/UX Redesign",
+      "other": "Mobile App Dev"
+    },
+    "urgency": {
+      "select": "Select urgency",
+      "high": "High - Immediate Start",
+      "medium": "Medium - Within 3 Months",
+      "low": "Low - Exploring Options"
+    },
+    "success": {
+      "title": "Request Secured",
+      "description": "Our elite engineering team has received your brief and will be in touch shortly."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "services": "Services",
+  "architecture": "Architecture",
+  "why_us": "Pourquoi Nous",
+  "testimonials": "Témoignages",
+  "contact": "Contact",
+  "dashboard": "Tableau de Bord",
+  "sign_out": "Se Déconnecter",
+  "login": "Connexion",
+  "start_project": "Démarrer un Projet",
+  "welcome": "Bienvenue chez Einort",
+  "sign_in_desc": "Connectez-vous ou démarrez une nouvelle architecture de projet d'entreprise.",
+  "navigation": "Navigation",
+  "professional_support": "Support Professionnel",
+  "command_center": "Centre de Commande",
+  "projects": "Projets",
+  "messages": "Messages",
+  "authenticated_user": "Utilisateur Authentifié",
+  "roles": {
+    "super_admin": "Super Administrateur",
+    "admin": "Administrateur",
+    "client": "Client Entreprise"
+  }
+}

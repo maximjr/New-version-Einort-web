@@ -1,0 +1,756 @@
+{
+  "badge": "Expertise Fondamentale",
+  "title_part_1": "L'INGÉNIERIE AU",
+  "title_part_2": "PLUS HAUT NIVEAU.",
+  "description": "Nous ne construisons pas seulement des sites web ; nous concevons des produits numériques qui servent de fondation aux entreprises modernes.",
+  "ui": {
+    "loading": "Chargement du service...",
+    "not_found": "Service non trouvé",
+    "enterprise_overview": "Présentation de l'Entreprise",
+    "execution_process": "Processus d'Exécution & Valeur",
+    "core_capabilities": "Capacités Fondamentales",
+    "ready_to_elevate": "Prêt à élever votre entreprise ?",
+    "chat_whatsapp": "Discuter via WhatsApp",
+    "home": "Accueil",
+    "services": "Services"
+  },
+  "erp": {
+    "badge": "Architecture d'Entreprise",
+    "title_part_1": "ERP SUR MESURE &",
+    "title_part_2": "SYSTÈMES CENTRAUX.",
+    "description": "Les logiciels standard vous obligent à changer votre entreprise pour s'adapter à l'outil. Nous construisons des systèmes de planification des ressources d'entreprise (ERP) personnalisés qui correspondent exactement à vos flux opérationnels uniques.",
+    "status": "État du système opérationnel et entièrement distribué.",
+    "features": {
+      "f1": "Gestion de l'Inventaire & de la Chaîne d'Approvisionnement",
+      "f2": "Ressources Humaines & Paie",
+      "f3": "Comptabilité Financière & Rapports",
+      "f4": "CRM & Pipeline de Ventes",
+      "f5": "Automatisation des Flux de Travail Personnalisés",
+      "f6": "Visualisation des Données en Temps Réel"
+    }
+  },
+  "items": {
+    "websites-web-apps": {
+      "title": "Enterprise Web Development & Web Applications",
+      "valueProposition": "Scalable, secure, and high-performance web architecture tailored for ambitious businesses in Cameroon and globally.",
+      "introduction": "In the modern digital economy, a website is no longer just a digital brochure—it is a core business asset. At EINORT Solutions, we engineer robust web applications and enterprise websites designed to drive operational efficiency, engage users, and generate revenue. We move beyond generic templates to deliver custom architectures built on modern stacks like React, Next.js, and Node.js.",
+      "targetAudience": "Medium to large enterprises, forward-thinking SMEs, and organizations requiring complex functional requirements, secure portals, or high-traffic e-commerce solutions.",
+      "problemsSolved": "We resolve issues of poor performance, security vulnerabilities, lack of scalability, and disconnected legacy systems by building unified, cloud-native web applications that integrate seamlessly with your business operations.",
+      "coreCapabilities": [
+        {
+          "title": "Custom Web Applications",
+          "desc": "Bespoke systems built from the ground up to match complex business logic."
+        },
+        {
+          "title": "Corporate Websites",
+          "desc": "High-authority, SEO-optimized digital platforms that establish market leadership."
+        },
+        {
+          "title": "E-Commerce Platforms",
+          "desc": "Scalable online storefronts with localized payment integrations."
+        },
+        {
+          "title": "Client & Vendor Portals",
+          "desc": "Secure, permission-based dashboards for external stakeholder management."
+        }
+      ],
+      "approach": "We treat web development as software engineering. Our process begins with deep architectural planning to ensure data integrity and security. We emphasize component-driven development, rigorous testing, and continuous integration to deliver a product that is not only beautiful but structurally flawless.",
+      "technology": "We leverage modern JavaScript ecosystems including React for dynamic interfaces, Next.js for SSR/SSG and superior SEO, Node.js for backend services, and Tailwind CSS for scalable styling. Infrastructure is deployed on secure cloud environments like AWS or Google Cloud.",
+      "benefits": [
+        "Exceptional loading speeds and Core Web Vitals performance.",
+        "Enterprise-grade security against common web vulnerabilities.",
+        "Complete technical SEO foundation for maximum search visibility.",
+        "Scalable architecture that grows seamlessly with your user base."
+      ],
+      "useCases": [
+        {
+          "title": "Logistics Management Portal",
+          "desc": "A custom web application allowing logistics companies to track shipments and manage fleets in real-time."
+        },
+        {
+          "title": "Digital Banking Interface",
+          "desc": "Secure web portals for microfinance institutions to allow customer account access."
+        }
+      ],
+      "industriesServed": [
+        "Finance & Fintech",
+        "Retail & E-commerce",
+        "Logistics",
+        "Healthcare",
+        "Corporate Services"
+      ],
+      "process": [
+        {
+          "step": "Technical Discovery",
+          "desc": "Mapping business requirements to architectural decisions."
+        },
+        {
+          "step": "UI/UX & Prototyping",
+          "desc": "Designing the user journey and interface structure."
+        },
+        {
+          "step": "Full-Stack Development",
+          "desc": "Writing clean, maintainable code on frontend and backend."
+        },
+        {
+          "step": "QA & Security Testing",
+          "desc": "Rigorous testing to ensure flawless operation."
+        },
+        {
+          "step": "Deployment & Maintenance",
+          "desc": "Cloud deployment and ongoing technical support."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Que fait une entreprise de développement logiciel au Cameroun ?",
+          "a": "Une entreprise de développement logiciel comme EINORT Solutions crée des outils numériques sur mesure (sites web, applications web complexes, systèmes de gestion) qui aident les organisations au Cameroun à numériser leurs processus, toucher plus de clients et fonctionner efficacement."
+        },
+        {
+          "q": "Combien coûte la création d'un site web au Cameroun ?",
+          "a": "Le coût de la création d'un site web au Cameroun varie selon la complexité. Un site vitrine simple est plus abordable, tandis qu'une application web complète avec intégrations sur mesure ou e-commerce nécessite un investissement plus important. Nous fournissons des devis personnalisés après une phase de découverte."
+        },
+        {
+          "q": "Combien de temps faut-il pour créer un site web professionnel ?",
+          "a": "Selon la complexité, un site web professionnel prend généralement 4 à 8 semaines, tandis qu'une application web d'entreprise peut prendre de 8 à 16 semaines de la découverte au déploiement."
+        },
+        {
+          "q": "Do you use WordPress or custom code?",
+          "a": "We specialize in custom software engineering using React and Node.js for scalable web applications, rather than relying on heavy CMS templates. However, we can integrate headless CMS solutions when content management is required."
+        },
+        {
+          "q": "How long does a custom web application take to build?",
+          "a": "Depending on complexity, an enterprise web application typically takes between 8 to 16 weeks from discovery to deployment."
+        }
+      ],
+      "relatedServices": [
+        "ui-ux-design",
+        "erp-solutions",
+        "seo-google-workspace"
+      ],
+      "cameroonContext": "Many Cameroonian businesses struggle with websites that load slowly or fail to reflect their true scale. Our custom architectures are optimized for both high-speed broadband and fluctuating mobile connections, ensuring reliable access across the continent."
+    },
+    "ui-ux-design": {
+      "title": "Premium UI/UX Design & Product Strategy",
+      "valueProposition": "Data-driven, aesthetically exceptional digital interfaces that maximize user engagement and business conversions.",
+      "introduction": "Great software is only as good as its user interface. EINORT Solutions provides world-class User Interface (UI) and User Experience (UX) design services that bridge the gap between complex functionality and human psychology. We design digital products that look beautiful, feel intuitive, and drive measurable business results.",
+      "targetAudience": "Tech startups, corporate enterprises, and organizations looking to modernize their digital presence or improve the usability of existing software systems.",
+      "problemsSolved": "We eliminate user friction, reduce bounce rates, and solve low adoption rates caused by confusing interfaces, outdated aesthetics, and poor mobile responsiveness.",
+      "coreCapabilities": [
+        {
+          "title": "User Research & Strategy",
+          "desc": "Understanding your users' behaviors, needs, and pain points."
+        },
+        {
+          "title": "Wireframing & Prototyping",
+          "desc": "Rapid structural design to validate concepts before development."
+        },
+        {
+          "title": "Interface Design (UI)",
+          "desc": "High-fidelity, brand-aligned visual design systems."
+        },
+        {
+          "title": "Usability Testing",
+          "desc": "Data-driven refinement based on real user interactions."
+        }
+      ],
+      "approach": "Our design philosophy marries aesthetics with functional intent. We utilize design systems to ensure consistency across large applications, and we strictly adhere to accessibility standards (WCAG) to ensure your product is usable by everyone.",
+      "technology": "We use industry-standard tools like Figma for collaborative design, prototyping, and design system management, ensuring a seamless handoff to our engineering teams.",
+      "benefits": [
+        "Higher conversion rates and user retention.",
+        "Reduced development costs through clear pre-build prototyping.",
+        "Stronger brand perception and market positioning.",
+        "Intuitive workflows that reduce user training time."
+      ],
+      "useCases": [
+        {
+          "title": "SaaS Dashboard Overhaul",
+          "desc": "Redesigning a complex B2B software interface to improve user efficiency and reduce support tickets."
+        },
+        {
+          "title": "E-Commerce Experience",
+          "desc": "Creating a frictionless mobile checkout journey that increases sales volume."
+        }
+      ],
+      "industriesServed": [
+        "Technology & SaaS",
+        "E-commerce",
+        "Financial Services",
+        "Education",
+        "Healthcare"
+      ],
+      "process": [
+        {
+          "step": "Discovery & Research",
+          "desc": "Analyzing the market, competitors, and user personas."
+        },
+        {
+          "step": "Information Architecture",
+          "desc": "Structuring content and navigation logically."
+        },
+        {
+          "step": "Wireframing",
+          "desc": "Creating the low-fidelity skeleton of the application."
+        },
+        {
+          "step": "High-Fidelity Design",
+          "desc": "Applying brand visuals, typography, and interactive states."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qu'est-ce que le design UI/UX ?",
+          "a": "Le design UI (Interface Utilisateur) se concentre sur les éléments visuels et interactifs d'un produit numérique, tandis que le design UX (Expérience Utilisateur) englobe tout le parcours de l'utilisateur, garantissant que le produit est intuitif, accessible et résout efficacement ses problèmes."
+        },
+        {
+          "q": "Do you design for both mobile and desktop?",
+          "a": "Absolutely. We employ a mobile-first design philosophy, ensuring flawless experiences across all devices and screen sizes."
+        },
+        {
+          "q": "Can you redesign an existing application?",
+          "a": "Yes, we frequently perform UX audits and complete visual redesigns of legacy systems to modernize their look and improve usability."
+        }
+      ],
+      "relatedServices": [
+        "websites-web-apps",
+        "mobile-app-development",
+        "branding-graphic-design"
+      ],
+      "cameroonContext": "In the Cameroonian market, digital literacy varies. We specialize in designing highly intuitive, localized interfaces that lower the barrier to entry for users, ensuring your application is accessible to the broadest possible audience."
+    },
+    "erp-solutions": {
+      "title": "Custom ERP Solutions & Business Management Software",
+      "valueProposition": "Bespoke Enterprise Resource Planning systems that unify your operations, automate workflows, and provide real-time business intelligence.",
+      "introduction": "Off-the-shelf software forces you to change your business to fit the tool. At EINORT Solutions, we build custom Enterprise Resource Planning (ERP) systems that map exactly to your unique operational flows. Our flagship EINORT ERP architecture integrates your sales, inventory, accounting, and HR into a single, secure, and scalable platform.",
+      "targetAudience": "Growing SMEs, large corporations, manufacturing firms, and retail chains that have outgrown standard spreadsheets or disconnected software tools.",
+      "problemsSolved": "We eliminate data silos, manual data entry errors, inventory discrepancies, and fragmented reporting by centralizing all core business processes into one unified system.",
+      "coreCapabilities": [
+        {
+          "title": "Inventory & Supply Chain",
+          "desc": "Real-time tracking, low-stock alerts, and multi-warehouse management."
+        },
+        {
+          "title": "Financial Accounting",
+          "desc": "Integrated invoicing, expense tracking, and comprehensive financial reporting."
+        },
+        {
+          "title": "HR & Payroll",
+          "desc": "Automated employee management, attendance, and compliance-ready payroll processing."
+        },
+        {
+          "title": "CRM & Sales",
+          "desc": "Pipeline management, customer history, and automated quotation generation."
+        }
+      ],
+      "approach": "We build modular ERP architectures. Instead of a monolithic system that is hard to update, we use a microservices approach. This allows us to deploy core modules first and seamlessly integrate additional features as your business scales, without disrupting existing operations.",
+      "technology": "Built on robust backend frameworks (Node.js/PostgreSQL) for maximum data integrity, with highly responsive React-based frontends for rapid data entry and dashboard visualization.",
+      "benefits": [
+        "Complete visibility into business performance in real-time.",
+        "Significant reduction in administrative overhead and manual labor.",
+        "Improved data accuracy and security through centralized architecture.",
+        "Infinite scalability without per-user licensing fees."
+      ],
+      "useCases": [
+        {
+          "title": "Retail Chain Management",
+          "desc": "Synchronizing Point of Sale (POS) data across multiple physical locations with a central warehouse."
+        },
+        {
+          "title": "Manufacturing Operations",
+          "desc": "Tracking raw materials from procurement to final product assembly and dispatch."
+        }
+      ],
+      "industriesServed": [
+        "Retail & Wholesale",
+        "Manufacturing",
+        "Logistics & Transport",
+        "Agribusiness",
+        "Construction"
+      ],
+      "process": [
+        {
+          "step": "Process Auditing",
+          "desc": "Deep analysis of your current workflows and operational bottlenecks."
+        },
+        {
+          "step": "Architecture Design",
+          "desc": "Designing the database schema and module relationships."
+        },
+        {
+          "step": "Agile Development",
+          "desc": "Building the system in sprints, prioritizing critical modules."
+        },
+        {
+          "step": "Data Migration & Training",
+          "desc": "Securely migrating legacy data and training your staff."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Qu'est-ce qu'un ERP ?",
+          "a": "Un système ERP (Enterprise Resource Planning) est une plateforme logicielle complète qui centralise les opérations de base d'une entreprise (gestion des stocks, ventes, ressources humaines, comptabilité) dans une seule base de données."
+        },
+        {
+          "q": "Quelles entreprises ont besoin d'un logiciel ERP ?",
+          "a": "Les entreprises qui ont du mal avec des données dispersées, qui dépendent de multiples fichiers Excel, ou qui rencontrent des inefficacités opérationnelles en grandissant (notamment dans la logistique, la distribution ou la vente) bénéficient énormément d'un ERP."
+        },
+        {
+          "q": "EINORT peut-il développer un logiciel ERP sur mesure ?",
+          "a": "Oui. EINORT Solutions est spécialisé dans la conception de systèmes ERP sur mesure, adaptés aux flux de travail exacts et aux exigences réglementaires des entreprises opérant au Cameroun et en Afrique."
+        },
+        {
+          "q": "Is a custom ERP more expensive than standard software?",
+          "a": "While the initial investment is higher, a custom ERP eliminates recurring per-user licensing fees and integrates perfectly with your workflows, offering a vastly superior ROI over time."
+        },
+        {
+          "q": "Can it integrate with our existing tools?",
+          "a": "Yes, we build robust APIs into our ERPs, allowing seamless integration with external payment gateways, specific third-party tools, or legacy hardware."
+        }
+      ],
+      "relatedServices": [
+        "websites-web-apps",
+        "ui-ux-design"
+      ],
+      "cameroonContext": "Many Cameroonian businesses face challenges with employee accountability and inventory theft. Our custom ERPs feature granular user permissions, unalterable audit trails, and real-time oversight, providing business owners with total control and peace of mind."
+    },
+    "mobile-app-development": {
+      "title": "Mobile App Development (iOS & Android)",
+      "valueProposition": "High-performance, native-feel mobile applications that put your business in the pockets of your customers.",
+      "introduction": "With mobile traffic dominating the digital landscape, having a powerful mobile presence is critical. EINORT Solutions engineers robust, scalable mobile applications for iOS and Android. Whether you need a consumer-facing app, a mobile commerce platform, or an internal enterprise tool, we deliver seamless mobile experiences.",
+      "targetAudience": "Startups, retail brands, service providers, and enterprises needing to engage customers directly on their smartphones or empower a mobile workforce.",
+      "problemsSolved": "We solve low customer engagement, inaccessible services, and slow mobile web experiences by delivering fast, offline-capable, and highly interactive mobile applications.",
+      "coreCapabilities": [
+        {
+          "title": "Cross-Platform Development",
+          "desc": "Building once and deploying to both iOS and Android efficiently."
+        },
+        {
+          "title": "Native Functionality",
+          "desc": "Seamless integration with camera, GPS, push notifications, and biometrics."
+        },
+        {
+          "title": "Offline Capabilities",
+          "desc": "Robust local data storage for functionality without internet access."
+        },
+        {
+          "title": "App Store Deployment",
+          "desc": "Managing the complex submission and approval processes for Apple and Google."
+        }
+      ],
+      "approach": "We prioritize performance and user experience. Our mobile architecture focuses on minimizing battery drain, reducing load times, and providing smooth, 60fps animations. We ensure that the backend APIs supporting the mobile app are highly secure and scalable.",
+      "technology": "We leverage modern frameworks like React Native or Flutter for efficient cross-platform development, backed by powerful Node.js or serverless architectures for the API layer.",
+      "benefits": [
+        "Direct marketing channel to customers via Push Notifications.",
+        "Enhanced brand loyalty and user engagement.",
+        "Access to device features for advanced functionality.",
+        "Wider market reach across both major mobile platforms."
+      ],
+      "useCases": [
+        {
+          "title": "On-Demand Delivery App",
+          "desc": "Real-time GPS tracking, secure payments, and driver routing."
+        },
+        {
+          "title": "Fintech Wallet",
+          "desc": "Secure mobile money integration, balance checking, and biometric login."
+        }
+      ],
+      "industriesServed": [
+        "Fintech",
+        "E-commerce",
+        "On-Demand Services",
+        "Healthcare",
+        "Logistics"
+      ],
+      "process": [
+        {
+          "step": "Mobile Strategy",
+          "desc": "Defining the core features and platform strategy."
+        },
+        {
+          "step": "UI/UX Design",
+          "desc": "Creating intuitive touch-based interfaces."
+        },
+        {
+          "step": "Development & API Integration",
+          "desc": "Coding the application and connecting to secure backends."
+        },
+        {
+          "step": "Beta Testing",
+          "desc": "Extensive testing on physical devices across multiple OS versions."
+        },
+        {
+          "step": "Launch",
+          "desc": "Publishing to the App Store and Google Play Store."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "EINORT peut-il développer des applications mobiles ?",
+          "a": "Oui, EINORT Solutions conçoit et développe des applications mobiles performantes pour iOS et Android, en se concentrant sur des expériences utilisateur fluides et des fonctionnalités robustes, même dans les zones à faible connectivité."
+        },
+        {
+          "q": "EINORT travaille-t-il avec des entreprises en dehors du Cameroun ?",
+          "a": "Absolument. Bien que nous ayons une expertise pointue sur les marchés camerounais et africains, nous collaborons avec des clients du monde entier pour fournir des solutions numériques de classe mondiale."
+        },
+        {
+          "q": "Do you develop for both iOS and Android?",
+          "a": "Yes, we use advanced cross-platform frameworks to deliver high-quality apps for both platforms simultaneously, reducing development time and costs."
+        },
+        {
+          "q": "Will the app work offline?",
+          "a": "We can architect the app to cache data locally, allowing core features to function offline and synchronize securely once the connection is restored."
+        }
+      ],
+      "relatedServices": [
+        "ui-ux-design",
+        "websites-web-apps"
+      ],
+      "cameroonContext": "Africa is overwhelmingly mobile-first. In Cameroon, internet connectivity can be intermittent. We engineer our apps to be lightweight, data-efficient, and capable of handling offline states gracefully, ensuring a reliable experience for local users."
+    },
+    "branding-graphic-design": {
+      "title": "Corporate Branding & Graphic Design",
+      "valueProposition": "Strategic visual identities that establish authority, build trust, and differentiate your business in a crowded market.",
+      "introduction": "Your brand is more than a logo; it is the visual language of your company. EINORT Solutions provides comprehensive corporate branding and graphic design services. We craft premium visual identities that communicate professionalism, scale, and reliability, ensuring your business looks like the industry leader it is.",
+      "targetAudience": "New companies needing a strong market entry, and established enterprises requiring a brand modernization to reflect growth and new market positions.",
+      "problemsSolved": "We fix inconsistent visual messaging, outdated logos, and amateur aesthetics that undermine a company's perceived value and deter high-ticket clients.",
+      "coreCapabilities": [
+        {
+          "title": "Brand Identity Design",
+          "desc": "Logos, color palettes, typography, and comprehensive brand guidelines."
+        },
+        {
+          "title": "Corporate Collateral",
+          "desc": "Professional business cards, letterheads, and presentation templates."
+        },
+        {
+          "title": "Digital Assets",
+          "desc": "Social media kits, digital banners, and web graphics."
+        },
+        {
+          "title": "Print Design",
+          "desc": "High-quality brochures, packaging, and large-format advertising."
+        }
+      ],
+      "approach": "We approach design strategically. Before drawing a single line, we analyze your market position, target demographic, and core values. Every color choice and typographic pairing is made with psychological intent, designed to evoke the right emotional response from your clients.",
+      "technology": "We utilize industry-leading creative suites including Adobe Illustrator for vector precision, Photoshop for image manipulation, and InDesign for complex layouts.",
+      "benefits": [
+        "Instantly communicate professionalism and trustworthiness.",
+        "Consistency across all digital and physical touchpoints.",
+        "Higher perceived value of your products and services.",
+        "Stronger brand recognition and recall."
+      ],
+      "useCases": [
+        {
+          "title": "Enterprise Rebranding",
+          "desc": "Modernizing a 20-year-old corporate identity to appeal to a younger, digital-first demographic."
+        },
+        {
+          "title": "Product Launch",
+          "desc": "Creating a comprehensive visual system and packaging design for a new premium product."
+        }
+      ],
+      "industriesServed": [
+        "Corporate Services",
+        "Real Estate",
+        "Retail",
+        "Hospitality",
+        "Technology"
+      ],
+      "process": [
+        {
+          "step": "Brand Discovery",
+          "desc": "Understanding your vision, values, and market positioning."
+        },
+        {
+          "step": "Concept Development",
+          "desc": "Exploring multiple visual directions and logo concepts."
+        },
+        {
+          "step": "Refinement",
+          "desc": "Perfecting the chosen concept based on collaborative feedback."
+        },
+        {
+          "step": "Guideline Creation",
+          "desc": "Compiling a comprehensive brand book for future consistency."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do I receive the source files?",
+          "a": "Yes, upon project completion, we provide all original vector source files (AI, EPS, SVG) ensuring you have full ownership and flexibility."
+        },
+        {
+          "q": "What is a brand guideline?",
+          "a": "A brand guideline is a document detailing exactly how your brand should be used—specifying exact color codes, font usage, and logo spacing to maintain consistency."
+        }
+      ],
+      "relatedServices": [
+        "ui-ux-design",
+        "social-media-management"
+      ],
+      "cameroonContext": "In a market where many businesses rely on generic templates, a custom, high-end visual identity immediately sets an enterprise apart, signaling reliability and attracting premium corporate clients."
+    },
+    "social-media-management": {
+      "title": "Social Media Management & Strategy",
+      "valueProposition": "Strategic, high-quality social media presence that builds communities, engages customers, and drives brand awareness.",
+      "introduction": "Social media is the frontline of customer interaction. EINORT Solutions provides professional social media management services that elevate your brand's voice. We move beyond simply posting content; we develop comprehensive strategies, create high-quality visual assets, and actively manage your community across platforms like Facebook, Instagram, and LinkedIn.",
+      "targetAudience": "Brands, corporations, and public figures who require a consistent, professional, and engaging presence on social networks without the overhead of an in-house team.",
+      "problemsSolved": "We solve the problems of inconsistent posting, poor visual quality, lack of audience engagement, and disjointed brand messaging across different social channels.",
+      "coreCapabilities": [
+        {
+          "title": "Content Strategy",
+          "desc": "Developing a content calendar aligned with business objectives."
+        },
+        {
+          "title": "Creative Production",
+          "desc": "High-quality graphics, copywriting, and short-form video content."
+        },
+        {
+          "title": "Community Management",
+          "desc": "Active monitoring, responding to comments, and fostering engagement."
+        },
+        {
+          "title": "Analytics & Reporting",
+          "desc": "Monthly performance analysis and strategy refinement."
+        }
+      ],
+      "approach": "Our approach is data-informed and brand-centric. We treat your social channels as vital extensions of your corporate identity. We focus on creating authoritative, shareable content that establishes your business as a thought leader in its industry.",
+      "technology": "We leverage advanced social media scheduling and analytics tools to ensure consistent delivery, optimal posting times, and deep insights into audience behavior.",
+      "benefits": [
+        "Consistent, professional brand image across all platforms.",
+        "Increased organic reach and audience engagement.",
+        "Saved time and resources for your internal team.",
+        "Actionable insights from detailed performance data."
+      ],
+      "useCases": [
+        {
+          "title": "Corporate LinkedIn Strategy",
+          "desc": "Positioning an enterprise B2B company as an industry thought leader through insightful articles and updates."
+        },
+        {
+          "title": "Retail Brand Awareness",
+          "desc": "Driving product visibility through highly visual, engaging Instagram campaigns."
+        }
+      ],
+      "industriesServed": [
+        "B2B Corporate",
+        "Retail & Fashion",
+        "Hospitality",
+        "Education",
+        "Real Estate"
+      ],
+      "process": [
+        {
+          "step": "Audience Analysis",
+          "desc": "Identifying where your target customers spend their time online."
+        },
+        {
+          "step": "Strategy & Calendar",
+          "desc": "Planning content themes and scheduling."
+        },
+        {
+          "step": "Content Creation",
+          "desc": "Designing graphics and writing compelling copy."
+        },
+        {
+          "step": "Execution & Monitoring",
+          "desc": "Publishing content and managing audience interactions."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Which platforms do you manage?",
+          "a": "We manage all major platforms, but we strategically focus on the ones where your specific target audience is most active—typically Facebook, Instagram, LinkedIn, or X (Twitter)."
+        },
+        {
+          "q": "Do I have to provide the content?",
+          "a": "While we welcome your input and company news, our team handles all the heavy lifting: copywriting, graphic design, and content curation."
+        }
+      ],
+      "relatedServices": [
+        "digital-advertising",
+        "branding-graphic-design"
+      ],
+      "cameroonContext": "With millions of active users, Facebook and Instagram are dominant communication channels in Cameroon. We understand local trends, cultural nuances, and the specific type of content that resonates and drives engagement in the local market."
+    },
+    "digital-advertising": {
+      "title": "Digital Advertising & Paid Media (PPC)",
+      "valueProposition": "Data-driven advertising campaigns that maximize ROI, capture high-intent leads, and scale your revenue predictably.",
+      "introduction": "Organic reach can only take you so far. EINORT Solutions designs and executes highly targeted digital advertising campaigns. From Google Ads capturing search intent to Facebook and Instagram Ads driving visual discovery, we optimize every dollar of your ad spend to generate measurable business results and qualified leads.",
+      "targetAudience": "E-commerce brands, B2B service providers, and local businesses looking to aggressively scale their customer acquisition and revenue.",
+      "problemsSolved": "We eliminate wasted ad spend, low conversion rates, and the frustration of running campaigns that generate traffic but fail to produce actual sales or leads.",
+      "coreCapabilities": [
+        {
+          "title": "Search Engine Marketing (Google Ads)",
+          "desc": "Capturing users actively searching for your services."
+        },
+        {
+          "title": "Social Media Advertising",
+          "desc": "Targeted demographic and interest-based campaigns on Meta platforms."
+        },
+        {
+          "title": "Retargeting Campaigns",
+          "desc": "Re-engaging visitors who left your site without converting."
+        },
+        {
+          "title": "Conversion Rate Optimization",
+          "desc": "Designing high-converting landing pages for ad traffic."
+        }
+      ],
+      "approach": "We are rigorously analytical. Every campaign starts with strict tracking setup (Pixel, Google Analytics) to ensure attribution. We continuously A/B test creatives, ad copy, and audience segments, shifting budget dynamically to the highest-performing variables to lower your Cost Per Acquisition (CPA).",
+      "technology": "We utilize Google Ads, Meta Ads Manager, advanced tracking pixels, Server-Side Tagging, and analytics platforms to ensure precise targeting and accurate ROI measurement.",
+      "benefits": [
+        "Immediate visibility and traffic generation.",
+        "Highly precise audience targeting based on behavior and intent.",
+        "Predictable, scalable lead generation and sales.",
+        "Transparent reporting on exactly how your budget is spent."
+      ],
+      "useCases": [
+        {
+          "title": "E-Commerce ROAS Scaling",
+          "desc": "Optimizing product catalog ads to achieve a 4x Return on Ad Spend for an online retailer."
+        },
+        {
+          "title": "B2B Lead Generation",
+          "desc": "Using targeted Google Search ads to capture high-value corporate leads for a service provider."
+        }
+      ],
+      "industriesServed": [
+        "E-Commerce",
+        "Real Estate",
+        "Professional Services",
+        "Education",
+        "Healthcare"
+      ],
+      "process": [
+        {
+          "step": "Tracking Setup",
+          "desc": "Implementing pixels and conversion tracking."
+        },
+        {
+          "step": "Audience & Keyword Research",
+          "desc": "Identifying the most profitable targets."
+        },
+        {
+          "step": "Ad Creation",
+          "desc": "Developing compelling copy and visual creatives."
+        },
+        {
+          "step": "Optimization",
+          "desc": "Daily monitoring, testing, and budget reallocation."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "EINORT peut-il gérer la publicité sur les réseaux sociaux ?",
+          "a": "Oui, nous créons et gérons des campagnes publicitaires ciblées sur des plateformes comme Facebook, Instagram et LinkedIn. Nous optimisons le budget publicitaire pour nous assurer que votre message atteint le public le plus susceptible de s'engager avec votre entreprise."
+        },
+        {
+          "q": "How much should I spend on ads?",
+          "a": "Ad budgets vary widely by industry and goals. We recommend starting with a sufficient test budget to gather data, then scaling up the campaigns that prove profitable."
+        },
+        {
+          "q": "How quickly will I see results?",
+          "a": "Unlike SEO, digital advertising can generate traffic and leads almost immediately once the campaigns are live and approved."
+        }
+      ],
+      "relatedServices": [
+        "social-media-management",
+        "websites-web-apps",
+        "seo-google-workspace"
+      ],
+      "cameroonContext": "Digital advertising is highly cost-effective in Cameroon due to lower competition compared to Western markets. Businesses can achieve significant reach and brand awareness at a fraction of the cost, making it an incredibly powerful tool for local market dominance."
+    },
+    "seo-google-workspace": {
+      "title": "Complete On-Site SEO & Google Workspace Setup",
+      "valueProposition": "Dominate search rankings and professionalize your enterprise operations with advanced SEO architecture and secure Google Workspace integration.",
+      "introduction": "Visibility and operational efficiency are the twin pillars of a modern enterprise. EINORT Solutions provides advanced Search Engine Optimization (SEO) to ensure your business is discovered by high-intent clients. Simultaneously, we implement Google Workspace, giving your company professional email (you@yourcompany.com) and enterprise-grade tools for secure document collaboration and storage.",
+      "targetAudience": "Businesses looking to dominate organic search results, and companies needing to transition from generic email addresses to a secure, professional corporate infrastructure.",
+      "problemsSolved": "We resolve the invisibility of your website on Google, and we eliminate the unprofessionalism and security risks associated with using personal @yahoo or @gmail accounts for business.",
+      "coreCapabilities": [
+        {
+          "title": "Technical & Semantic SEO",
+          "desc": "Optimizing site architecture, speed, and structured data for search engines."
+        },
+        {
+          "title": "Content Authority Strategy",
+          "desc": "Developing semantic keyword strategies to capture commercial intent."
+        },
+        {
+          "title": "Google Workspace Migration",
+          "desc": "Seamless transition of emails and data to Google's secure cloud."
+        },
+        {
+          "title": "Corporate Email Setup",
+          "desc": "Configuration of professional domains, security protocols (SPF/DKIM/DMARC), and user management."
+        }
+      ],
+      "approach": "Our SEO approach is strictly 'White Hat' and technical. We focus on Core Web Vitals, clean code, and authoritative content rather than outdated tricks. For Workspace, we act as your IT architects, ensuring secure data migration with zero downtime.",
+      "technology": "We leverage advanced SEO tools (Google Search Console, Schema.org JSON-LD), and administer Google Workspace via the Google Admin Console, ensuring strict enterprise security policies.",
+      "benefits": [
+        "Long-term, sustainable organic traffic and lead generation.",
+        "Instant credibility with clients through professional branded email.",
+        "Enterprise-grade security and data protection for company documents.",
+        "Seamless team collaboration via Google Drive, Meet, and Docs."
+      ],
+      "useCases": [
+        {
+          "title": "Corporate Domain Transition",
+          "desc": "Migrating a 50-person company from legacy webmail to Google Workspace without losing historical data."
+        },
+        {
+          "title": "Organic Traffic Scaling",
+          "desc": "Restructuring a corporate website's SEO architecture to rank #1 for core industry keywords."
+        }
+      ],
+      "industriesServed": [
+        "All Corporate Sectors",
+        "Professional Services",
+        "E-Commerce",
+        "Real Estate"
+      ],
+      "process": [
+        {
+          "step": "Technical Audit",
+          "desc": "Deep analysis of your current search visibility and IT infrastructure."
+        },
+        {
+          "step": "SEO Implementation",
+          "desc": "Applying technical fixes, structured data, and content optimization."
+        },
+        {
+          "step": "Workspace Configuration",
+          "desc": "Setting up domains, security records, and user accounts."
+        },
+        {
+          "step": "Migration & Training",
+          "desc": "Moving data and onboarding your team to the new tools."
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Pourquoi le SEO est-il important pour une entreprise ?",
+          "a": "Le SEO (référencement naturel) est essentiel car il permet à votre entreprise d'apparaître en haut des résultats Google lorsque des clients potentiels recherchent activement vos services. Cela génère un trafic qualifié et organique qui se convertit en ventes."
+        },
+        {
+          "q": "Qu'est-ce que Google Workspace ?",
+          "a": "Google Workspace est une suite d'outils de productivité et de collaboration basés sur le cloud (incluant Gmail professionnel, Drive, Docs et Meet) qui permet aux équipes de travailler de manière sécurisée de n'importe où en utilisant un nom de domaine personnalisé."
+        },
+        {
+          "q": "How long does SEO take to show results?",
+          "a": "SEO is a long-term strategy. While technical fixes can yield quick improvements, building significant topical authority and ranking for competitive keywords typically takes 3 to 6 months."
+        },
+        {
+          "q": "Will we lose our old emails when moving to Google Workspace?",
+          "a": "No. We perform secure, structured data migrations that transfer your entire email history, contacts, and calendars to your new Workspace accounts."
+        }
+      ],
+      "relatedServices": [
+        "websites-web-apps",
+        "digital-advertising"
+      ],
+      "cameroonContext": "Many local businesses still use generic @yahoo or @gmail addresses, which instantly diminishes trust in B2B transactions. Furthermore, local SEO competition is often low, meaning a technically optimized website can easily capture the majority of organic search traffic in your sector in Cameroon."
+    }
+  }
+}

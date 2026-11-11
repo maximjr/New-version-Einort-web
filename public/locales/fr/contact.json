@@ -1,0 +1,20 @@
+{
+  "badge": "Contactez-nous",
+  "title": "CONTACTEZ-NOUS",
+  "description": "Vous avez une question ou besoin d'aide ? Envoyez un message directement à notre équipe.",
+  "success": {
+    "title": "Message Envoyé !",
+    "message": "Merci, {{name}}. Notre équipe vous répondra sous peu via la messagerie du portail client."
+  },
+  "message_template": "Soumission du formulaire de contact :\n\nNom : {{name}}\nEmail : {{email}}\n\nMessage : {{message}}",
+  "info": {
+    "title": "Informations de Contact"
+  },
+  "advantage": {
+    "badge": "L'Avantage Einort",
+    "title": "Pourquoi Choisir EINORT"
+  },
+  "cta": {
+    "title": "Besoin d'aide pour transformer votre entreprise ?"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "badge": "Histoires de Réussite",
+  "title": "ÉTUDES DE CAS",
+  "description": "Découvrez comment nous avons aidé des organisations de premier plan à transformer leurs opérations et à se développer numériquement.",
+  "key_result": "Résultat Clé :",
+  "read_more": "Lire la Suite",
+  "items": {
+    "global-logistics-erp": {
+      "title": "ERP Logistique Mondial",
+      "category": "Dév de Solutions ERP",
+      "description": "Un système ERP complet de gestion de la chaîne d'approvisionnement et de la logistique qui a augmenté l'efficacité opérationnelle de 40 % pour une entreprise de transport multinationale.",
+      "metric": "Gain d'Efficacité de 40 %"
+    },
+    "fintech-mobile-app": {
+      "title": "App Mobile FinTech",
+      "category": "Dév d'App Mobile",
+      "description": "Un portefeuille mobile multiplateforme et une application d'investissement traitant plus de 10 millions de dollars de transactions mensuelles avec des protocoles de sécurité de niveau bancaire.",
+      "metric": "Plus de 10M$ de volume mensuel"
+    },
+    "healthcare-portal": {
+      "title": "Portail Patient de Santé",
+      "category": "Dév de Sites et d'App Web",
+      "description": "Une application Web de gestion des patients conforme à la loi HIPAA gérant la planification, la télésanté et les dossiers de santé électroniques pour plus de 50 000 utilisateurs actifs.",
+      "metric": "Plus de 50 000 utilisateurs actifs"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "default": {
+    "title": "Einort Solutions | Agence Web & Développement de Logiciels au Cameroun",
+    "description": "Einort Solutions est une agence de premier plan en ingénierie logicielle basée à Douala, Cameroun. Nous sommes spécialisés dans le développement web sur mesure, les systèmes ERP, l'automatisation IA et la conception UI/UX premium au Cameroun, en Afrique et dans le monde."
+  },
+  "home": {
+    "title": "Einort Solutions | Meilleure Agence Web & Logicielle au Cameroun",
+    "description": "Einort Solutions fournit une architecture logicielle d'entreprise de classe mondiale, une ingénierie de systèmes full-stack et une infrastructure cloud évolutive pour les entreprises modernes au Cameroun et à l'échelle mondiale."
+  },
+  "admin": {
+    "title": "Admin Intelligence | Einort Solutions",
+    "description": "Centre de commande d'entreprise et pipeline de projets."
+  },
+  "client_portal": {
+    "title": "Portail Client | Einort Solutions",
+    "description": "Gérez vos projets en cours, votre facturation et vos consultations."
+  },
+  "names": {
+    "global": "Global",
+    "usa": "USA",
+    "canada": "Canada",
+    "europe": "Europe",
+    "uk": "Royaume-Uni",
+    "germany": "Allemagne",
+    "france": "France",
+    "cameroon": "Cameroun",
+    "enterprise": "Entreprise",
+    "saas": "SaaS",
+    "fintech": "Fintech",
+    "healthcare": "Santé",
+    "logistics": "Logistique",
+    "retail": "Vente au Détail"
+  },
+  "location": {
+    "title_template": "Développement Web d'Entreprise et Ingénierie Logicielle à {{region}} | Einort Solutions",
+    "description_template": "Einort Solutions livre des services de développement logiciel sur mesure de classe mondiale, d'automatisation d'IA et de design UI/UX premium aux entreprises à {{region}}.",
+    "services_badge": "Solutions d'Entreprise à {{region}}",
+    "hero_title": "Architecture Logicielle de Classe Mondiale",
+    "hero_title_accent": "Pour les Entreprises à {{region}}",
+    "hero_description": "Nous construisons des systèmes évolutifs et performants ainsi que des plateformes numériques magnifiquement conçues pour les entreprises d'élite à {{region}}.",
+    "schedule_discovery": "Planifier une Découverte",
+    "explore_global": "Explorer le Global",
+    "features": {
+      "architecture_title": "Architecture d'Entreprise",
+      "architecture_desc": "Systèmes logiciels sur mesure conçus pour le leadership du marché à {{region}}.",
+      "secure_title": "Infrastructure Sécurisée",
+      "secure_desc": "Solutions cloud blindées conformes aux normes de données à {{region}}.",
+      "expertise_title": "Expertise Mondiale",
+      "expertise_desc": "Contexte local avec des normes d'ingénierie de classe mondiale à {{region}}."
+    }
+  },
+  "industry": {
+    "title_template": "Développement Web et Architecture Logicielle sur Mesure {{industry}} | Einort Solutions",
+    "description_template": "Solutions logicielles d'entreprise et conception web de pointe spécialisées pour le secteur {{industry}} par Einort Solutions.",
+    "solutions_badge": "Solutions {{industry}}",
+    "hero_title": "Excellence Architecturale",
+    "hero_title_accent": "Pour le Secteur {{industry}}",
+    "hero_description": "Transformer les opérations du secteur {{industry}} grâce à des systèmes ERP personnalisés, des intégrations d'IA et une ingénierie logicielle haute performance.",
+    "start_project": "Démarrer un Projet {{industry}}",
+    "features": {
+      "erp_title": "Solutions ERP sur Mesure",
+      "erp_desc": "Simplifiez les opérations du secteur {{industry}} avec des systèmes de gestion intégrés.",
+      "portals_title": "Portails d'Entreprise",
+      "portals_desc": "Plateformes sécurisées et performantes pour les opérations clients et internes.",
+      "modernization_title": "Modernisation des Systèmes Hérités",
+      "modernization_desc": "Mettez à niveau les anciens systèmes vers des architectures cloud modernes et évolutives."
+    }
+  },
+  "og": {
+    "title": "Einort Solutions | Applications Web sur Mesure & Architecture d'Entreprise Cameroun",
+    "description": "Développement de logiciels de classe mondiale, conception UI/UX premium et infrastructure cloud évolutive pour les entreprises modernes au Cameroun et dans le monde. Top agence web à Douala."
+  },
+  "twitter": {
+    "title": "Einort Solutions | Agence de Logiciels d'Entreprise Cameroun",
+    "description": "Ingénierie et architecture de logiciels d'entreprise premium pour les entreprises au Cameroun et au-delà."
+  },
+  "services": {
+    "title_template": "Solutions de {{service}} | Einort Solutions",
+    "description_template": "Expertise en {{service}} et développement sur mesure pour votre entreprise.",
+    "specific": {
+      "websites-web-apps": {
+        "title": "Agence de Développement Web au Cameroun | EINORT Solutions",
+        "description": "EINORT Solutions crée des sites internet et des applications web sur mesure pour les entreprises au Cameroun. Experts en React, Node.js et architecture d'entreprise."
+      },
+      "ui-ux-design": {
+        "title": "Agence de Conception UI/UX au Cameroun | EINORT Solutions",
+        "description": "Services professionnels de conception UI/UX à Douala, Cameroun. Nous concevons des expériences numériques intuitives et attrayantes pour les entreprises modernes."
+      },
+      "erp-solutions": {
+        "title": "Solutions ERP pour Entreprises au Cameroun | EINORT Solutions",
+        "description": "Systèmes ERP sur mesure et logiciels de gestion d'entreprise au Cameroun. Optimisez vos opérations, vos stocks et vos ventes avec EINORT ERP."
+      },
+      "mobile-app-development": {
+        "title": "Développement d'Applications Mobiles au Cameroun | EINORT Solutions",
+        "description": "Meilleure agence de développement d'applications mobiles à Douala, Cameroun. Nous créons des applications iOS et Android performantes pour les entreprises."
+      },
+      "branding-graphic-design": {
+        "title": "Branding et Création Graphique au Cameroun | EINORT Solutions",
+        "description": "Services de branding et de conception graphique haut de gamme pour les entreprises au Cameroun. Bâtissez une identité visuelle forte et professionnelle."
+      },
+      "social-media-management": {
+        "title": "Gestion des Réseaux Sociaux au Cameroun | EINORT Solutions",
+        "description": "Services professionnels de gestion de réseaux sociaux au Cameroun. Engagez votre audience et développez votre marque sur Facebook, Instagram et LinkedIn."
+      },
+      "digital-advertising": {
+        "title": "Publicité Digitale au Cameroun | EINORT Solutions",
+        "description": "Campagnes de publicité digitale axées sur les résultats au Cameroun. Maximisez votre ROI avec des publicités ciblées sur Facebook, Instagram et Google."
+      },
+      "seo-google-workspace": {
+        "title": "Services SEO au Cameroun | EINORT Solutions",
+        "description": "Améliorez votre visibilité avec nos services SEO experts au Cameroun. Nous proposons également la configuration de Google Workspace et d'emails professionnels."
+      }
+    }
+  },
+  "about": {
+    "title": "À Propos d'EINORT Solutions | Entreprise Technologique à Douala",
+    "description": "Découvrez EINORT Solutions, notre mission et notre équipe d'ingénieurs logiciels experts en transformation numérique au Cameroun."
+  },
+  "contact": {
+    "title": "Contactez EINORT Solutions | Agence de Développement Logiciel au Cameroun",
+    "description": "Contactez EINORT Solutions pour le développement de logiciels sur mesure, les systèmes ERP et les services de marketing digital à Douala, Cameroun."
+  },
+  "services_index": {
+    "title": "Nos Services Numériques | Logiciel, Web & Marketing au Cameroun",
+    "description": "Découvrez notre gamme complète de services d'ingénierie logicielle d'entreprise, de développement web, de conception UI/UX et de marketing digital."
+  },
+  "insights": {
+    "title": "Insights & Blog Technologique | EINORT Solutions",
+    "description": "Lisez nos derniers articles sur le développement de logiciels, la transformation numérique, les ERP et les stratégies marketing pour les entreprises au Cameroun."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "F.A.Q",
+  "subtitle_1": "QUESTIONS",
+  "subtitle_2": "FRÉQUENTES",
+  "questions": {
+    "q1": {
+      "question": "Quel est votre délai typique pour un projet ?",
+      "answer": "Nos délais varient en fonction de la portée et de la complexité du projet. Un MVP d'application web standard peut prendre 6 à 10 semaines, tandis que des solutions d'entreprise à grande échelle et des systèmes ERP peuvent prendre 3 à 6 mois. Nous divisons le développement en sprints agiles pour garantir une livraison et des retours continus."
+    },
+    "q2": {
+      "question": "Proposez-vous une assistance et une maintenance après le lancement ?",
+      "answer": "Oui, nous proposons des services continus d'assistance, de maintenance et d'optimisation. Nous surveillons les performances du système, effectuons des correctifs de sécurité et pouvons continuellement itérer sur les fonctionnalités en fonction des retours des utilisateurs et de la croissance de l'entreprise."
+    },
+    "q3": {
+      "question": "Dans quelles technologies êtes-vous spécialisés ?",
+      "answer": "Nous nous concentrons sur des piles technologiques modernes et évolutives, notamment React, TypeScript, Node.js, Next.js, et Firebase ou Cloud SQL pour les bases de données. Pour le mobile, nous tirons parti des frameworks multiplateformes pour garantir des performances élevées sur iOS et Android."
+    },
+    "q4": {
+      "question": "Comment gérez-vous la communication sur le projet ?",
+      "answer": "Nous croyons en une transparence totale. Nos clients ont accès à un portail client dédié où ils peuvent suivre les jalons du projet, consulter les liens de staging et discuter directement avec l'équipe de développement en temps réel."
+    },
+    "q5": {
+      "question": "Pouvez-vous vous intégrer à notre backend existant ou à des API tierces ?",
+      "answer": "Absolument. Nous possédons une vaste expérience dans les intégrations d'API fluides, la migration de bases de données héritées et la connexion d'applications modernes avec des logiciels d'entreprise établis (CRM, passerelles de paiement, etc.)."
+    }
+  }
+}

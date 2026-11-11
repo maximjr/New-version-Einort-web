@@ -1,0 +1,8 @@
+{
+  "generic": "Une erreur est survenue. Veuillez réessayer.",
+  "contact_send": "Une erreur est survenue lors de l'envoi de votre message. Veuillez réessayer.",
+  "required": "Ce champ est obligatoire",
+  "email_invalid": "Veuillez entrer une adresse email valide",
+  "not_found": "Page non trouvée",
+  "unauthorized": "Vous n'êtes pas autorisé à consulter cette page"
+}
